@@ -1,0 +1,4 @@
+*.lck
+.history/
+.history/*
+*.pdf
