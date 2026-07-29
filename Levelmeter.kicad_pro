@@ -732,7 +732,7 @@
         "uuid": "7d35597c-fbf9-4ce7-8410-0e7922679ea3"
       }
     ],
-    "used_designators": "U14-17,C46-53,J3,J5-6,R32-33,R35-36,R38-48,#PWR114,#PWR118-122,#PWR126-131",
+    "used_designators": "U17,#PWR98-100,#PWR109-110,#PWR112-113,#PWR132-144,C38,C40,C42,C44-45,C54-56,R33,R35,R38,R49-51",
     "variants": []
   },
   "sheets": [
