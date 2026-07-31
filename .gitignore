@@ -1,6 +1,6 @@
 *.lck
 .history/
 .history/*
-.Levelmeter-backups/
-.Levelmeter-backups/*
+Levelmeter-backups/
+Levelmeter-backups/*
 *.pdf

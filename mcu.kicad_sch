@@ -6371,7 +6371,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0056ec4b-2965-4e2f-85b7-1a6b67470499")
-		(property "Reference" "#PWR43"
+		(property "Reference" "#PWR055"
 			(at 62.23 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6431,7 +6431,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR43")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6448,7 +6448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08d96f76-b370-4c07-9266-ea10ba407594")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 315.976 131.064 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,7 +6585,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13172f10-cd41-4ec8-a5b7-dea8536b4218")
-		(property "Reference" "#PWR44"
+		(property "Reference" "#PWR056"
 			(at 71.12 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +6662,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR44")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -6679,7 +6679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13c4a9c6-273b-42d5-b84c-e86dfff9d31c")
-		(property "Reference" "#PWR48"
+		(property "Reference" "#PWR060"
 			(at 361.95 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR48")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2188bef3-fe57-4a2d-a75c-f086740fd95c")
-		(property "Reference" "#PWR42"
+		(property "Reference" "#PWR054"
 			(at 62.23 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6817,7 +6817,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR42")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6834,7 +6834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27cf17a4-8393-4c3a-bb21-f5a0182aaf77")
-		(property "Reference" "C22"
+		(property "Reference" "C28"
 			(at 88.9 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,7 +6951,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C22")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -6968,7 +6968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b297b86-01c7-4935-997d-5fda3cdc9c1f")
-		(property "Reference" "#PWR45"
+		(property "Reference" "#PWR057"
 			(at 81.28 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7028,7 +7028,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR45")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7045,7 +7045,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "312abd0a-3f4c-4ae9-a0bc-d8489786c9c6")
-		(property "Reference" "#PWR47"
+		(property "Reference" "#PWR059"
 			(at 295.91 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -7105,7 +7105,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR47")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -7122,7 +7122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "384bba53-afe0-4968-8495-cf345ec72726")
-		(property "Reference" "C19"
+		(property "Reference" "C25"
 			(at 88.9 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7239,7 +7239,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C19")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7256,7 +7256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c9c95ee-3eb4-4848-8461-71a8f6c66b67")
-		(property "Reference" "U6"
+		(property "Reference" "U7"
 			(at 159.258 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7515,7 +7515,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -7532,7 +7532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ec1f0cf-3cb6-49fe-ac40-23c534a5203b")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR061"
 			(at 373.38 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -7592,7 +7592,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR49")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "49957d1d-e8b6-4657-9600-5551e931a665")
-		(property "Reference" "C20"
+		(property "Reference" "C26"
 			(at 88.9 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7726,7 +7726,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C20")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7743,7 +7743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "56bfefcf-9a66-4f00-9b6b-dbf28fce0368")
-		(property "Reference" "C18"
+		(property "Reference" "C24"
 			(at 73.66 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7860,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C18")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7877,7 +7877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61c4724f-46da-4e0e-89ae-c9a52012f101")
-		(property "Reference" "C23"
+		(property "Reference" "C29"
 			(at 375.92 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7994,7 +7994,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C23")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -8011,7 +8011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bb12c81-be77-4373-9502-d0a3686fa9e0")
-		(property "Reference" "#PWR41"
+		(property "Reference" "#PWR053"
 			(at 52.07 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +8071,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR41")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8088,7 +8088,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c59b2ae-96c4-420d-b33f-2efc4405fa12")
-		(property "Reference" "C21"
+		(property "Reference" "C27"
 			(at 88.9 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +8205,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C21")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8334,7 +8334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "931f5c9c-0301-4997-b8c9-70578ec3319a")
-		(property "Reference" "#PWR50"
+		(property "Reference" "#PWR062"
 			(at 373.38 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8394,7 +8394,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR50")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8411,7 +8411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b77be67-d477-4d3a-af1f-9e0df8daa7e0")
-		(property "Reference" "C16"
+		(property "Reference" "C22"
 			(at 54.61 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8528,7 +8528,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C16")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -8545,7 +8545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b17caaa5-993c-4603-8e3f-f9be48037a4a")
-		(property "Reference" "C17"
+		(property "Reference" "C23"
 			(at 64.77 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8662,7 +8662,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "C17")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8679,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea127a10-d2a0-46f9-ae0e-514cdfda72be")
-		(property "Reference" "#PWR46"
+		(property "Reference" "#PWR058"
 			(at 116.84 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -8739,7 +8739,7 @@
 		(instances
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
-					(reference "#PWR46")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)

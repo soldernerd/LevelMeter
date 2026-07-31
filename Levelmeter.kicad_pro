@@ -571,6 +571,22 @@
       {
         "netclass": "Power",
         "pattern": "BAT+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "-4V5"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "ExciterB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "ExciterA"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "5V0"
       }
     ]
   },
@@ -732,7 +748,7 @@
         "uuid": "7d35597c-fbf9-4ce7-8410-0e7922679ea3"
       }
     ],
-    "used_designators": "U17,#PWR98-100,#PWR109-110,#PWR112-113,#PWR132-165,C38,C40,C42,C44-45,C54-68,J6,R33,R35,R38,R49-54",
+    "used_designators": "D1-4,#PWR1-167,J1-6,BZ1,C1-68,DS1,H1-4,Q1-5,R1-56,SW1-2,U1-16,Y1-2",
     "variants": []
   },
   "sheets": [
