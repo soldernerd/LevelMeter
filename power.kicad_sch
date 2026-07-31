@@ -1277,7 +1277,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Power/BatteryManagement/DW01A"
+		(symbol "sldrnrd:Power/BatteryManagement/DW01A_PUOLOP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1314,7 +1314,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/BatteryManagement/DW01A.pdf"
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/BatteryManagement/DW01A_PUOLOP.pdf"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1325,7 +1325,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "1-Cell Li-ion Battery Protection IC, SOT-23-6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1336,7 +1336,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Fortune Semicon"
+			(property "Manufacturer" "PUOLOP"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1358,7 +1358,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C85680"
+			(property "LCSC" "C351410"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1380,7 +1380,7 @@
 					)
 				)
 			)
-			(symbol "Power/BatteryManagement/DW01A_0_1"
+			(symbol "Power/BatteryManagement/DW01A_PUOLOP_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -1413,7 +1413,7 @@
 				(pin unspecified line
 					(at -12.7 0 0)
 					(length 5.08)
-					(name "CSI"
+					(name "VM"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1467,7 +1467,7 @@
 				(pin unspecified line
 					(at 12.7 0 180)
 					(length 5.08)
-					(name "VDD"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1485,7 +1485,7 @@
 				(pin unspecified line
 					(at 12.7 2.54 180)
 					(length 5.08)
-					(name "VSS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3833,6 +3833,158 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Resistor/R0603_470R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "470R"
+				(at -2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:R_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "470R Resistor, 0603, 1%, 75V, 100mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Uni-Royal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0603WAF4700T5E"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C23179"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistor/R0603_470R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor/R0603_470R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Resistor/R0603_68k"
 			(pin_numbers
 				(hide yes)
@@ -4302,14 +4454,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Transistor/MosfetN/FS8205A"
+		(symbol "sldrnrd:Transistor/MosfetN/FS8205A_TechPublic"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Q"
-				(at 0 8.89 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -4328,7 +4480,7 @@
 					)
 				)
 			)
-			(property "Footprint" "sldrnrd:TSSOP-8"
+			(property "Footprint" "sldrnrd:SOT-23-6"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4339,7 +4491,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetN/FS8205A.pdf"
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetN/FS8205A_TechPublic.pdf"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4361,7 +4513,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Fortune Semicon"
+			(property "Manufacturer" "TECH PUBLIC"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4383,7 +4535,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C14212"
+			(property "LCSC" "C2830320"
 				(at 0 -21.59 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4405,10 +4557,10 @@
 					)
 				)
 			)
-			(symbol "Transistor/MosfetN/FS8205A_0_1"
+			(symbol "Transistor/MosfetN/FS8205A_TechPublic_0_1"
 				(rectangle
-					(start -6.35 6.35)
-					(end 6.35 -6.35)
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -4418,7 +4570,7 @@
 					)
 				)
 				(circle
-					(center -5.71 5.71)
+					(center -3.17 -3.17)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -4429,9 +4581,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 3.81 0)
+					(at -2.54 -6.35 90)
 					(length 2.54)
-					(name "D"
+					(name "S1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4447,9 +4599,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 1.27 0)
+					(at 0 -6.35 90)
 					(length 2.54)
-					(name "S1"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4465,9 +4617,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -1.27 0)
+					(at 2.54 -6.35 90)
 					(length 2.54)
-					(name "S1"
+					(name "S2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4483,9 +4635,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -3.81 0)
+					(at 2.54 6.35 270)
 					(length 2.54)
-					(name "G1"
+					(name "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4501,9 +4653,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 8.89 -3.81 180)
+					(at 0 6.35 270)
 					(length 2.54)
-					(name "G2"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4519,9 +4671,9 @@
 					)
 				)
 				(pin unspecified line
-					(at 8.89 -1.27 180)
+					(at -2.54 6.35 270)
 					(length 2.54)
-					(name "S2"
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4529,42 +4681,6 @@
 						)
 					)
 					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5259,12 +5375,6 @@
 		(color 0 0 0 0)
 		(uuid "f82c2a5e-4865-41d8-a75a-2328418d37c3")
 	)
-	(junction
-		(at 236.22 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8d7e500-2bed-465c-929f-2c03f2e7f599")
-	)
 	(no_connect
 		(at 363.22 82.55)
 		(uuid "72679ded-7c9d-436d-aa26-43ab6c97307d")
@@ -5479,16 +5589,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 92.71) (xy 199.39 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1416359d-8166-4944-ab97-b6bbf742f590")
-	)
-	(wire
-		(pts
 			(xy 344.17 184.15) (xy 334.01 184.15)
 		)
 		(stroke
@@ -5599,16 +5699,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 92.71) (xy 236.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad55277-d44e-43f7-b7b0-ccec52cc711f")
-	)
-	(wire
-		(pts
 			(xy 251.46 170.18) (xy 251.46 187.96)
 		)
 		(stroke
@@ -5656,16 +5746,6 @@
 			(type default)
 		)
 		(uuid "2f9703fe-5df7-48b3-996d-9089a8d91a09")
-	)
-	(wire
-		(pts
-			(xy 236.22 92.71) (xy 236.22 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "320de34d-f8e6-455b-8015-1f803383a769")
 	)
 	(wire
 		(pts
@@ -5766,6 +5846,16 @@
 			(type default)
 		)
 		(uuid "3c07b135-0a3b-4e1a-a564-187c2b7f189b")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e7a6323-df1f-46fe-a712-5cd77f2d7e69")
 	)
 	(wire
 		(pts
@@ -6116,16 +6206,6 @@
 			(type default)
 		)
 		(uuid "6d73b0f8-524f-4406-b0eb-e750dcf8ce1f")
-	)
-	(wire
-		(pts
-			(xy 199.39 90.17) (xy 199.39 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a6cd18-47b8-4bb6-b6ef-303ee927cbb9")
 	)
 	(wire
 		(pts
@@ -6489,13 +6569,13 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 95.25) (xy 201.93 95.25)
+			(xy 204.47 95.25) (xy 203.2 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a273cc3b-3fc4-41b9-9f88-96739e1c6bf7")
+		(uuid "a2df07d5-efa2-45db-9b72-6ca6964c6c90")
 	)
 	(wire
 		(pts
@@ -6516,6 +6596,16 @@
 			(type default)
 		)
 		(uuid "a61dae6e-f96b-415d-9c54-ee14f4348340")
+	)
+	(wire
+		(pts
+			(xy 219.71 83.82) (xy 193.04 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6cec696-1dbe-4552-8f51-3d06d7e1f698")
 	)
 	(wire
 		(pts
@@ -6569,6 +6659,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 95.25) (xy 226.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9968a7-ec55-4674-8950-3991699f1e6c")
+	)
+	(wire
+		(pts
 			(xy 374.65 184.15) (xy 383.54 184.15)
 		)
 		(stroke
@@ -6586,16 +6686,6 @@
 			(type default)
 		)
 		(uuid "acc1c7bf-d9fc-4990-9984-67c18a9b6b57")
-	)
-	(wire
-		(pts
-			(xy 236.22 90.17) (xy 236.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae986da3-f5f4-49d1-8d53-7b62e4580e29")
 	)
 	(wire
 		(pts
@@ -6639,16 +6729,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 95.25) (xy 226.06 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c058f6b1-42fc-46f1-a41e-a4222f1859bb")
-	)
-	(wire
-		(pts
 			(xy 318.77 168.91) (xy 318.77 181.61)
 		)
 		(stroke
@@ -6689,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 60.96) (xy 193.04 95.25)
+			(xy 193.04 60.96) (xy 193.04 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6799,6 +6879,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 90.17) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef09689-b982-43a4-9874-ba2e6d121094")
+	)
+	(wire
+		(pts
 			(xy 190.5 187.96) (xy 190.5 199.39)
 		)
 		(stroke
@@ -6806,6 +6896,16 @@
 			(type default)
 		)
 		(uuid "cffffa4a-842a-43e1-a20c-cf3ea698bb94")
+	)
+	(wire
+		(pts
+			(xy 217.17 90.17) (xy 219.71 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24b4a8d-3424-4903-a626-b9b41f7485a3")
 	)
 	(wire
 		(pts
@@ -6909,7 +7009,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 201.93 90.17)
+			(xy 199.39 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6926,16 +7026,6 @@
 			(type default)
 		)
 		(uuid "e272a58d-78be-401b-85d1-50cc9783fb39")
-	)
-	(wire
-		(pts
-			(xy 219.71 90.17) (xy 236.22 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e44ed37c-3d36-40bb-93fc-7603d962c70d")
 	)
 	(wire
 		(pts
@@ -8263,8 +8353,8 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Transistor/MosfetN/FS8205A")
-		(at 210.82 91.44 0)
+		(lib_id "sldrnrd:Transistor/MosfetN/FS8205A_TechPublic")
+		(at 210.82 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8274,7 +8364,7 @@
 		(dnp no)
 		(uuid "2779b15b-55d3-4ec8-8e8b-4b59ff5283aa")
 		(property "Reference" "Q3"
-			(at 210.82 83.82 0)
+			(at 218.44 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8284,7 +8374,7 @@
 			)
 		)
 		(property "Value" "FS8205A"
-			(at 210.82 99.06 0)
+			(at 201.93 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8293,8 +8383,8 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:TSSOP-8"
-			(at 210.82 102.87 0)
+		(property "Footprint" "sldrnrd:SOT-23-6"
+			(at 199.39 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8304,8 +8394,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetN/FS8205A.pdf"
-			(at 210.82 105.41 0)
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetN/FS8205A_TechPublic.pdf"
+			(at 196.85 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8316,7 +8406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 91.44 0)
+			(at 210.82 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8326,8 +8416,8 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Fortune Semicon"
-			(at 210.82 107.95 0)
+		(property "Manufacturer" "TECH PUBLIC"
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8338,7 +8428,7 @@
 			)
 		)
 		(property "MPN" "FS8205A"
-			(at 210.82 110.49 0)
+			(at 191.77 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8348,8 +8438,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C14212"
-			(at 210.82 113.03 0)
+		(property "LCSC" "C2830320"
+			(at 189.23 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8371,14 +8461,8 @@
 		(pin "6"
 			(uuid "9d2858e3-6e44-44e6-b801-4bc394dc354c")
 		)
-		(pin "7"
-			(uuid "6ed8678b-4cff-48fa-8005-da61f553ac49")
-		)
 		(pin "2"
 			(uuid "f1f6ced5-5b54-4a84-b4bc-3b9791b98478")
-		)
-		(pin "8"
-			(uuid "5c0c5a20-354d-4841-b9b7-3645ce9bca95")
 		)
 		(pin "3"
 			(uuid "076df9d1-cd77-4669-b92b-b5b909ef7cf5")
@@ -8912,7 +8996,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_1k")
+		(lib_id "sldrnrd:Resistor/R0603_470R")
 		(at 234.95 57.15 180)
 		(unit 1)
 		(body_style 1)
@@ -8932,8 +9016,8 @@
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 239.014 57.15 90)
+		(property "Value" "470R"
+			(at 236.982 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8964,7 +9048,7 @@
 				)
 			)
 		)
-		(property "Description" "1k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "470R Resistor, 0603, 1%, 75V, 100mW"
 			(at 234.95 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8986,7 +9070,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF1001T5E"
+		(property "MPN" "0603WAF4700T5E"
 			(at 234.95 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8997,7 +9081,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" "C23179"
 			(at 234.95 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11937,7 +12021,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "854e3178-291e-4c65-a77d-77753fcbab6e")
 		(property "Reference" "C5"
 			(at 237.49 67.3099 90)
@@ -11950,7 +12033,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 237.49 69.8499 90)
+			(at 239.268 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13130,7 +13213,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_2k")
+		(lib_id "sldrnrd:Resistor/R0603_1k")
 		(at 186.69 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -13142,23 +13225,25 @@
 		(fields_autoplaced yes)
 		(uuid "a97fac6b-2849-4c12-9098-276641222e64")
 		(property "Reference" "R2"
-			(at 189.23 80.0099 90)
+			(at 189.23 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "2k"
-			(at 189.23 82.5499 90)
+		(property "Value" "1k"
+			(at 189.23 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -13183,7 +13268,7 @@
 				)
 			)
 		)
-		(property "Description" "2k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "1k Resistor, 0603, 1%, 75V, 100mW"
 			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13205,7 +13290,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2001T5E"
+		(property "MPN" "0603WAF1001T5E"
 			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13216,7 +13301,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22975"
+		(property "LCSC" "C21190"
 			(at 186.69 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -15520,7 +15605,7 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:PowerFlag/GND")
-		(at 236.22 105.41 0)
+		(at 203.2 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15531,7 +15616,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6a3d279-7504-4e23-95e4-3adbf7e5da8c")
 		(property "Reference" "#PWR015"
-			(at 236.22 111.76 0)
+			(at 203.2 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15542,7 +15627,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 110.49 0)
+			(at 203.2 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15552,7 +15637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 105.41 0)
+			(at 203.2 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15563,7 +15648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 105.41 0)
+			(at 203.2 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15574,7 +15659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
-			(at 236.22 105.41 0)
+			(at 203.2 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16231,7 +16316,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Power/BatteryManagement/DW01A")
+		(lib_id "sldrnrd:Power/BatteryManagement/DW01A_PUOLOP")
 		(at 210.82 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -16272,7 +16357,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/BatteryManagement/DW01A.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/BatteryManagement/DW01A_PUOLOP.pdf"
 			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -16283,7 +16368,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1-Cell Li-ion Battery Protection IC, SOT-23-6"
 			(at 210.82 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16294,7 +16379,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Fortune Semicon"
+		(property "Manufacturer" "PUOLOP"
 			(at 210.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16316,7 +16401,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C85680"
+		(property "LCSC" "C351410"
 			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)

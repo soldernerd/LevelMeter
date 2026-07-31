@@ -14792,7 +14792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17492463"
+		(property "LCSC" "Display: C17492463, Connector: C262557"
 			(at 212.09 101.854 0)
 			(hide yes)
 			(show_name no)
