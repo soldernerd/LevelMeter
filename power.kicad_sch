@@ -923,7 +923,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:LED/LED_Green_0603"
+		(symbol "sldrnrd:LED/LED_Green_0603_NationStar"
 			(pin_numbers
 				(hide yes)
 			)
@@ -978,7 +978,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Green LED, 0603"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -989,7 +989,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "EVERLIGHT"
+			(property "Manufacturer" "NationStar"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1000,7 +1000,7 @@
 					)
 				)
 			)
-			(property "MPN" "19-217/GHC-YR1S2/3T"
+			(property "MPN" "NCD0603G2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1011,7 +1011,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C72043"
+			(property "LCSC" "C87326"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1022,7 +1022,7 @@
 					)
 				)
 			)
-			(symbol "LED/LED_Green_0603_0_1"
+			(symbol "LED/LED_Green_0603_NationStar_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1060,11 +1060,11 @@
 					)
 				)
 			)
-			(symbol "LED/LED_Green_0603_1_1"
+			(symbol "LED/LED_Green_0603_NationStar_1_1"
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1080,9 +1080,9 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1239,9 +1239,9 @@
 			)
 			(symbol "LED/LED_Red_0603_1_1"
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1257,9 +1257,9 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "K"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1794,6 +1794,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Power/ChargePump/HX4002-MFC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX4002-MFC"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:SOT-23-6"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/ChargePump/HX4002-MFC.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Charge Pump 5V 250mA, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "HEXIN"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HX4002-MFC"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C172354"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC-DC Converters"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Power/ChargePump/HX4002-MFC_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -8.89 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "C-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "C+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Power/ChargePump/LM27761DSGR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2075,243 +2312,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sldrnrd:Power/ChargePump/SD6210A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SD6210A"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "sldrnrd:SOT-23-6"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/ChargePump/SD6210A.pdf"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SHOUDING"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "SD6210A"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C250809"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "DC-DC Converters"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Power/ChargePump/SD6210A_0_1"
-				(rectangle
-					(start -10.16 5.08)
-					(end 10.16 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -8.89 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "C-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "C+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5689,16 +5689,6 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 62.23) (xy 420.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f2d65a-aa91-49d7-993b-a3ccafa92377")
-	)
-	(wire
-		(pts
 			(xy 251.46 170.18) (xy 251.46 187.96)
 		)
 		(stroke
@@ -5949,16 +5939,6 @@
 	)
 	(wire
 		(pts
-			(xy 411.48 50.8) (xy 411.48 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "440d1aeb-dd3f-4fda-8e8d-8a1c3bdee8a6")
-	)
-	(wire
-		(pts
 			(xy 369.57 186.69) (xy 388.62 186.69)
 		)
 		(stroke
@@ -6149,6 +6129,16 @@
 	)
 	(wire
 		(pts
+			(xy 420.37 62.23) (xy 420.37 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd21b4a-e472-4f40-b56d-57d0b2fbcf1f")
+	)
+	(wire
+		(pts
 			(xy 488.95 187.96) (xy 494.03 187.96)
 		)
 		(stroke
@@ -6229,26 +6219,6 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 50.8) (xy 420.37 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7647f726-8154-4f33-92e8-938f5ef0d7ad")
-	)
-	(wire
-		(pts
-			(xy 411.48 62.23) (xy 411.48 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "765b6449-eb8b-474c-9078-6215c19e3c97")
-	)
-	(wire
-		(pts
 			(xy 64.77 106.68) (xy 64.77 73.66)
 		)
 		(stroke
@@ -6306,6 +6276,16 @@
 			(type default)
 		)
 		(uuid "80dee373-7862-42c8-b3ec-138340afacf1")
+	)
+	(wire
+		(pts
+			(xy 420.37 50.8) (xy 420.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "843a2fde-60b8-4809-9c8e-faffc8152f2a")
 	)
 	(wire
 		(pts
@@ -6689,6 +6669,16 @@
 	)
 	(wire
 		(pts
+			(xy 411.48 62.23) (xy 411.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17cfb41-8b9f-4835-a6d8-f0ef8d33eb81")
+	)
+	(wire
+		(pts
 			(xy 81.28 189.23) (xy 81.28 200.66)
 		)
 		(stroke
@@ -6706,6 +6696,16 @@
 			(type default)
 		)
 		(uuid "b4ca8af3-e649-42d6-8767-2523778361e5")
+	)
+	(wire
+		(pts
+			(xy 411.48 50.8) (xy 411.48 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bce94cb2-6ed0-4661-a931-3635d240e297")
 	)
 	(wire
 		(pts
@@ -8634,14 +8634,13 @@
 			)
 		)
 		(property "Value" "68k"
-			(at 438.15 199.3899 0)
+			(at 438.15 199.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -10534,7 +10533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:LED/LED_Green_0603")
+		(lib_id "sldrnrd:LED/LED_Green_0603_NationStar")
 		(at 420.37 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -10555,7 +10554,7 @@
 			)
 		)
 		(property "Value" "LED_Green_0603"
-			(at 420.37 54.61 90)
+			(at 420.37 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10586,7 +10585,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Green LED, 0603"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10597,7 +10596,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "EVERLIGHT"
+		(property "Manufacturer" "NationStar"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10608,7 +10607,7 @@
 				)
 			)
 		)
-		(property "MPN" "19-217/GHC-YR1S2/3T"
+		(property "MPN" "NCD0603G2"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10619,7 +10618,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72043"
+		(property "LCSC" "C87326"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11689,14 +11688,13 @@
 			)
 		)
 		(property "Value" "180k"
-			(at 438.15 186.6899 0)
+			(at 438.15 186.6899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -13236,14 +13234,13 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 189.23 82.5499 0)
+			(at 189.23 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -15135,7 +15132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Power/ChargePump/SD6210A")
+		(lib_id "sldrnrd:Power/ChargePump/HX4002-MFC")
 		(at 356.87 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -15155,7 +15152,7 @@
 				)
 			)
 		)
-		(property "Value" "SD6210A"
+		(property "Value" "HX4002-MFC"
 			(at 356.87 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15176,7 +15173,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/ChargePump/SD6210A.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/ChargePump/HX4002-MFC.pdf"
 			(at 356.87 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -15187,7 +15184,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Charge Pump 5V 250mA, SOT-23-6"
 			(at 356.87 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -15198,7 +15195,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SHOUDING"
+		(property "Manufacturer" "HEXIN"
 			(at 356.87 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -15209,7 +15206,7 @@
 				)
 			)
 		)
-		(property "MPN" "SD6210A"
+		(property "MPN" "HX4002-MFC"
 			(at 356.87 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15220,7 +15217,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C250809"
+		(property "LCSC" "C172354"
 			(at 356.87 204.47 0)
 			(hide yes)
 			(show_name no)
