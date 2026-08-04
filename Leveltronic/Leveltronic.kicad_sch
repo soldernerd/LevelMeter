@@ -192,6 +192,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Capacitor/C0805_10n"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10n"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:C_0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10nF Capacitor, 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C83170"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CC0805KRX7R9BB103"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor/C0805_10n_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor/C0805_10n_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Capacitor/C0805_1n"
 			(pin_numbers
 				(hide yes)
@@ -721,6 +908,207 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sldrnrd:Connector/100Mil/Header_100mil_1x04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Header_100mil_1x04"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:Header_100mil_1x04"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "CJT"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "A2541WV-4P"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C225479"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector header 2.54mm through-hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector/100Mil/Header_100mil_1x04_0_1"
+				(rectangle
+					(start -2.54 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1526,6 +1914,225 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Power/LinearRegulator/LDK130M18R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LDK130M18R"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:SOT-23-5"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/LinearRegulator/LDK130.pdf"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1.8V fixed ultra-low-noise low-IQ LDO regulator, 300mA, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LDK130M18R"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C377955"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LDO Linear Voltage Regulator low-IQ low-noise 1.8V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Power/LinearRegulator/LDK130M18R_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "BYP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Power/LinearRegulator/LT1964ES5-SD"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1710,225 +2317,6 @@
 					(at 10.16 -2.54 180)
 					(length 2.54)
 					(name "ADJ"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sldrnrd:Power/LinearRegulator/TPS7A0218PDBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS7A0218PDBVR"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "sldrnrd:SOT-23-5"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/LinearRegulator/TPS7A02.pdf"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1.8V fixed low-Iq LDO regulator, SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "TPS7A0218PDBVR"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C3748843"
-				(at 0 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LDO Linear Voltage Regulator low-IQ 1.8V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Power/LinearRegulator/TPS7A0218PDBVR_0_1"
-				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -6.35 3.81)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "N/C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4100,10 +4488,22 @@
 		(uuid "3b31370e-27ab-4951-95ea-5a8c97545078")
 	)
 	(junction
+		(at 200.66 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c74e29a-1283-4a4a-8247-77aaf51366d8")
+	)
+	(junction
 		(at 132.08 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42db9d60-aa1b-4575-bc71-4e1c6ecc2dc2")
+	)
+	(junction
+		(at 40.64 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b15a849-1d54-4b5e-a1a3-48099e6e0e8a")
 	)
 	(junction
 		(at 149.86 22.86)
@@ -4136,16 +4536,16 @@
 		(uuid "69ff4aa4-a149-4d9d-9817-6a733f7223eb")
 	)
 	(junction
-		(at 144.78 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b57b5b-1ff2-434e-bedc-6faaa98656a4")
-	)
-	(junction
 		(at 223.52 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c33d20-df96-40c2-acf1-456dc27bd459")
+	)
+	(junction
+		(at 189.23 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84a4b31e-525b-4a8e-8622-dcec863f2a80")
 	)
 	(junction
 		(at 158.75 148.59)
@@ -4182,12 +4582,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94cda551-d7d2-4c2b-9a39-2fcfbf187188")
-	)
-	(junction
-		(at 156.21 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96443d9f-dab3-493e-9907-d16150bd8ab7")
 	)
 	(junction
 		(at 105.41 104.14)
@@ -4394,6 +4788,16 @@
 			(type default)
 		)
 		(uuid "05fc9b02-79cd-44d9-94e8-77fd2b9b309d")
+	)
+	(wire
+		(pts
+			(xy 40.64 39.37) (xy 43.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a04658-3a9b-4853-997c-341268004f48")
 	)
 	(wire
 		(pts
@@ -4647,6 +5051,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 109.22) (xy 99.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2792dba9-4f70-41c9-afe1-867150932a2a")
+	)
+	(wire
+		(pts
 			(xy 115.57 153.67) (xy 115.57 151.13)
 		)
 		(stroke
@@ -4684,6 +5098,16 @@
 			(type default)
 		)
 		(uuid "295328de-5715-4dc3-997a-60baccc3291e")
+	)
+	(wire
+		(pts
+			(xy 189.23 110.49) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0058ba-e8ac-46aa-8f2e-c2c9abe52e83")
 	)
 	(wire
 		(pts
@@ -4734,6 +5158,16 @@
 			(type default)
 		)
 		(uuid "3517a502-96c5-4479-826f-e448d2ed101f")
+	)
+	(wire
+		(pts
+			(xy 43.18 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378d5274-0f34-43d7-9a78-e32eb3447b8a")
 	)
 	(wire
 		(pts
@@ -4847,6 +5281,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 44.45) (xy 40.64 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e075d4-a998-4583-a3a7-d140f3eee9d2")
+	)
+	(wire
+		(pts
 			(xy 64.77 176.53) (xy 69.85 176.53)
 		)
 		(stroke
@@ -4907,7 +5351,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 110.49) (xy 191.77 110.49)
+			(xy 182.88 110.49) (xy 189.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4967,16 +5411,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 41.91) (xy 43.18 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4def69c9-bf13-40bb-80f9-e3957ad2cd9e")
-	)
-	(wire
-		(pts
 			(xy 240.03 31.75) (xy 250.19 31.75)
 		)
 		(stroke
@@ -5027,6 +5461,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 125.73) (xy 189.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538e338f-6dfa-4bd6-8c41-19218ff15203")
+	)
+	(wire
+		(pts
 			(xy 214.63 71.12) (xy 214.63 73.66)
 		)
 		(stroke
@@ -5047,6 +5491,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 77.47) (xy 200.66 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55eb09ba-86bf-4867-a119-035199119226")
+	)
+	(wire
+		(pts
 			(xy 147.32 87.63) (xy 147.32 85.09)
 		)
 		(stroke
@@ -5054,6 +5508,16 @@
 			(type default)
 		)
 		(uuid "56380431-b57c-4daf-ae4b-0ccaeb90658d")
+	)
+	(wire
+		(pts
+			(xy 193.04 128.27) (xy 191.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571f42b9-7a87-4582-8409-4b863c560431")
 	)
 	(wire
 		(pts
@@ -5147,7 +5611,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 110.49) (xy 200.66 57.15)
+			(xy 200.66 110.49) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5197,16 +5661,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 66.04) (xy 144.78 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64eb0160-c214-41d0-a0a8-367955d178fc")
-	)
-	(wire
-		(pts
 			(xy 162.56 50.8) (xy 162.56 48.26)
 		)
 		(stroke
@@ -5227,13 +5681,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 43.18) (xy 40.64 41.91)
+			(xy 38.1 40.64) (xy 40.64 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "670e08ff-9478-45f6-bf7a-52fcabb55f77")
+		(uuid "6728584c-a756-4e23-8164-ed034d815519")
 	)
 	(wire
 		(pts
@@ -5277,7 +5731,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 64.77) (xy 144.78 66.04)
+			(xy 144.78 64.77) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5367,6 +5821,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 128.27) (xy 191.77 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7608ff30-1bc7-4478-991f-a1b265e1a7b9")
+	)
+	(wire
+		(pts
 			(xy 171.45 123.19) (xy 176.53 123.19)
 		)
 		(stroke
@@ -5424,6 +5888,16 @@
 			(type default)
 		)
 		(uuid "7d6b7eb6-296a-4251-ae80-a5c4e7be3fff")
+	)
+	(wire
+		(pts
+			(xy 96.52 109.22) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3a318f-80ea-411e-8b04-d31361a1624a")
 	)
 	(wire
 		(pts
@@ -5617,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 41.91) (xy 40.64 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94bc0e28-fcd7-4ad9-83bb-573bdb1fa00c")
+	)
+	(wire
+		(pts
 			(xy 73.66 106.68) (xy 73.66 120.65)
 		)
 		(stroke
@@ -5697,7 +6181,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 64.77) (xy 156.21 66.04)
+			(xy 156.21 64.77) (xy 156.21 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5757,6 +6241,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b7e50f-2d18-4753-b2c9-68d0b1ff551d")
+	)
+	(wire
+		(pts
 			(xy 38.1 67.31) (xy 38.1 69.85)
 		)
 		(stroke
@@ -5784,6 +6278,16 @@
 			(type default)
 		)
 		(uuid "a7b31b36-60bd-47b3-b51f-e4d3a3903fdd")
+	)
+	(wire
+		(pts
+			(xy 40.64 40.64) (xy 40.64 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8eee757-d5f7-4a17-8a1e-1ee5414cbce4")
 	)
 	(wire
 		(pts
@@ -5877,16 +6381,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 43.18) (xy 40.64 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b51625be-d7de-4d19-891e-cfc4d23a1dfb")
-	)
-	(wire
-		(pts
 			(xy 223.52 90.17) (xy 223.52 92.71)
 		)
 		(stroke
@@ -5927,6 +6421,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 125.73) (xy 189.23 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b988990e-a25a-4109-afd4-b11bc74a9740")
+	)
+	(wire
+		(pts
 			(xy 160.02 53.34) (xy 167.64 53.34)
 		)
 		(stroke
@@ -5944,16 +6448,6 @@
 			(type default)
 		)
 		(uuid "bd174cec-1e67-48e0-b56c-fb9c74fb7147")
-	)
-	(wire
-		(pts
-			(xy 38.1 39.37) (xy 43.18 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bed11fe2-5a76-4417-a7dd-8b7a367de10f")
 	)
 	(wire
 		(pts
@@ -6117,6 +6611,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 77.47) (xy 190.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5d8ee51-1862-4a59-86b2-b79a6733dcc7")
+	)
+	(wire
+		(pts
 			(xy 207.01 135.89) (xy 217.17 135.89)
 		)
 		(stroke
@@ -6167,16 +6671,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 66.04) (xy 156.21 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddd3c558-483a-4d14-86e7-73cfec0baf6e")
-	)
-	(wire
-		(pts
 			(xy 22.86 25.4) (xy 22.86 26.67)
 		)
 		(stroke
@@ -6184,6 +6678,16 @@
 			(type default)
 		)
 		(uuid "de729492-3f6d-4d04-83e6-7ef5c43c259a")
+	)
+	(wire
+		(pts
+			(xy 99.06 115.57) (xy 99.06 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7f593c-23c1-4445-ad98-013292035db2")
 	)
 	(wire
 		(pts
@@ -6357,6 +6861,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 36.83) (xy 43.18 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f850c6-9eec-417d-809c-6f9db399af89")
+	)
+	(wire
+		(pts
 			(xy 214.63 40.64) (xy 214.63 43.18)
 		)
 		(stroke
@@ -6454,6 +6968,16 @@
 			(type default)
 		)
 		(uuid "fce48244-099a-4b11-b60f-2e3c1e543609")
+	)
+	(wire
+		(pts
+			(xy 40.64 44.45) (xy 40.64 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1cbf77-62d3-41a3-8508-87ce115d9a5d")
 	)
 	(wire
 		(pts
@@ -6707,7 +7231,7 @@
 	)
 	(global_label "PendulumShield"
 		(shape output)
-		(at 38.1 43.18 180)
+		(at 38.1 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6717,7 +7241,7 @@
 		)
 		(uuid "bf790545-5737-4ff1-a1f9-d1f825095435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 19.9356 43.18 0)
+			(at 19.9356 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6731,7 +7255,7 @@
 	)
 	(global_label "Pendulum"
 		(shape input)
-		(at 38.1 39.37 180)
+		(at 38.1 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6741,7 +7265,7 @@
 		)
 		(uuid "c22e1e02-3c17-456f-b620-d8cd6def1509")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8017 39.37 0)
+			(at 25.8017 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6952,6 +7476,143 @@
 			(project "Leveltronic"
 				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
 					(reference "#PWR40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:Capacitor/C0805_10n")
+		(at 99.06 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04f81c48-5815-4294-a7c2-3ff5bf9e72e0")
+		(property "Reference" "C9"
+			(at 101.6 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 101.6 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0805"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10nF Capacitor, 0805"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C83170"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CC0805KRX7R9BB103"
+			(at 99.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36c3afb4-875e-4c6c-ba7a-ad689b7a2b0a")
+		)
+		(pin "2"
+			(uuid "0a973b38-07bd-4432-b70a-0124e35c755b")
+		)
+		(instances
+			(project "Leveltronic"
+				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -8103,6 +8764,84 @@
 			(project "Leveltronic"
 				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 191.77 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18526b2f-89ec-4514-981d-1ea3862d08c8")
+		(property "Reference" "#PWR045"
+			(at 191.77 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 191.77 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00e66322-da85-455d-b63a-090c7575c830")
+		)
+		(instances
+			(project "Leveltronic"
+				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -9647,7 +10386,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Power/LinearRegulator/TPS7A0218PDBVR")
+		(lib_id "sldrnrd:Power/LinearRegulator/LDK130M18R")
 		(at 86.36 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -9668,7 +10407,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A0218PDBVR"
+		(property "Value" "LDK130M18R"
 			(at 86.36 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9689,7 +10428,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/LinearRegulator/TPS7A02.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Power/LinearRegulator/LDK130.pdf"
 			(at 86.36 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9700,7 +10439,7 @@
 				)
 			)
 		)
-		(property "Description" "1.8V fixed low-Iq LDO regulator, SOT-23-5"
+		(property "Description" "1.8V fixed ultra-low-noise low-IQ LDO regulator, 300mA, SOT-23-5"
 			(at 86.36 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -9711,18 +10450,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
-			(at 86.36 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "TPS7A0218PDBVR"
+		(property "Manufacturer" "STMicroelectronics"
 			(at 86.36 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9733,7 +10461,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C3748843"
+		(property "MPN" "LDK130M18R"
+			(at 86.36 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C377955"
 			(at 86.36 127 0)
 			(hide yes)
 			(show_name no)
@@ -16208,6 +16947,84 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 40.64 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5e9ab6a-da01-4d56-8c73-cc5e5657218e")
+		(property "Reference" "#PWR046"
+			(at 40.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 40.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a4a145fd-e86f-4b3c-bc07-184c78165fd1")
+		)
+		(instances
+			(project "Leveltronic"
+				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
 		(at 186.69 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -16285,7 +17102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Connector/100Mil/Header_100mil_1x02")
+		(lib_id "sldrnrd:Connector/100Mil/Header_100mil_1x04")
 		(at 48.26 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -16307,7 +17124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Header_100mil_1x02"
+		(property "Value" "Header_100mil_1x04"
 			(at 54.61 41.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16318,8 +17135,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "sldrnrd:Header_100mil_1x02"
-			(at 48.26 48.26 0)
+		(property "Footprint" "sldrnrd:Header_100mil_1x04"
+			(at 48.26 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16352,17 +17169,6 @@
 			)
 		)
 		(property "Manufacturer" "CJT"
-			(at 48.26 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "A2541WV-2P"
 			(at 48.26 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16373,8 +17179,19 @@
 				)
 			)
 		)
-		(property "LCSC" "C225477"
+		(property "MPN" "A2541WV-4P"
 			(at 48.26 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C225479"
+			(at 48.26 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16389,6 +17206,12 @@
 		)
 		(pin "2"
 			(uuid "29b75250-fa10-4cf8-8eea-98f0c5d60688")
+		)
+		(pin "4"
+			(uuid "df7db74e-7e33-4b6d-b133-42f2fc781776")
+		)
+		(pin "3"
+			(uuid "37988519-8123-4a9e-bf03-14dc72990977")
 		)
 		(instances
 			(project "Leveltronic"
@@ -16967,6 +17790,197 @@
 		)
 	)
 	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 99.06 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ac7bf0-b017-413a-bcdb-a2800b819fbc")
+		(property "Reference" "#PWR044"
+			(at 99.06 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 99.06 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70e4a366-7c7f-4b3e-8a8f-8bd6d92c51ec")
+		)
+		(instances
+			(project "Leveltronic"
+				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:Resistor/R0805_10M")
+		(at 194.31 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f993ed2a-6488-41e3-8b3c-4206106ab960")
+		(property "Reference" "R17"
+			(at 194.31 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opt"
+			(at 194.31 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:R_0805"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10M Resistor, 0805, 1%, 150V, 125mW"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uni-Royal"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0805W8F1005T5E"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C325772"
+			(at 194.31 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f813308-d12b-4473-af74-cb49edf37daa")
+		)
+		(pin "1"
+			(uuid "1b415bef-da8c-47f1-81c7-0441b7e04612")
+		)
+		(instances
+			(project "Leveltronic"
+				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sldrnrd:Connector/100Mil/Header_100mil_1x02")
 		(at 255.27 33.02 0)
 		(unit 1)
@@ -17076,6 +18090,121 @@
 			(project "Leveltronic"
 				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:Connector/100Mil/Header_100mil_1x02")
+		(at 198.12 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbb31b26-324f-422a-bb6d-3ecabe5f7129")
+		(property "Reference" "J5"
+			(at 204.47 125.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Header_100mil_1x02"
+			(at 204.47 128.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sldrnrd:Header_100mil_1x02"
+			(at 198.12 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CJT"
+			(at 198.12 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "A2541WV-2P"
+			(at 198.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C225477"
+			(at 198.12 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8113c0f-00a9-461a-bdd5-fcd85f77ff76")
+		)
+		(pin "2"
+			(uuid "c829f0c6-35b3-4370-b509-969445d4b2c5")
+		)
+		(instances
+			(project "Leveltronic"
+				(path "/812e8b04-480e-4f0a-862a-7997ee668c81"
+					(reference "J5")
 					(unit 1)
 				)
 			)
