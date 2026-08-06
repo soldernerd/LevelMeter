@@ -1130,6 +1130,376 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Capacitor/C1206_10u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:C_1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10uF Capacitor, 1206"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C70462"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "25V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Yageo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CC1206KKX7R8BB106"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor/C1206_10u_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor/C1206_10u_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sldrnrd:Connector/50Mil/Header_50mil_1x03"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Header_50mil_1x03"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:Header_50mil_1x03"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Hong Cheng"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "HC-PZ127-7.2L-1x3PZ"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C42162998"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "header 1.27mm single-row 3-pin through-hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector/50Mil/Header_50mil_1x03_0_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Crystal/Q13FC1350000400"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4045,6 +4415,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 172.72) (xy 298.45 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c93b70f-f673-4aa0-8843-8750c470d031")
+	)
+	(wire
+		(pts
 			(xy 97.79 116.84) (xy 102.87 116.84)
 		)
 		(stroke
@@ -4135,6 +4515,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 125.73) (xy 303.53 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f90da9-faae-4a08-b37c-d9f1731d07aa")
+	)
+	(wire
+		(pts
 			(xy 289.56 140.97) (xy 303.53 140.97)
 		)
 		(stroke
@@ -4222,6 +4612,16 @@
 			(type default)
 		)
 		(uuid "52ba9a3f-b4ee-4d4a-b842-f2c9e066773a")
+	)
+	(wire
+		(pts
+			(xy 300.99 175.26) (xy 302.26 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5881f9e5-46da-4708-a355-779bd5ffce89")
 	)
 	(wire
 		(pts
@@ -4375,6 +4775,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 177.8) (xy 302.26 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78540e44-e8c4-4380-bf46-776122cd829b")
+	)
+	(wire
+		(pts
 			(xy 91.44 106.68) (xy 97.79 106.68)
 		)
 		(stroke
@@ -4382,6 +4792,16 @@
 			(type default)
 		)
 		(uuid "788c1ff9-40d2-4727-ab71-436d5650f4df")
+	)
+	(wire
+		(pts
+			(xy 200.66 139.7) (xy 205.74 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac5e8d2-4dbb-4d7f-bd8e-2ad5cac316b9")
 	)
 	(wire
 		(pts
@@ -4435,6 +4855,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 143.51) (xy 205.74 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1ea190-2873-47d8-8493-b2a5f36bd855")
+	)
+	(wire
+		(pts
 			(xy 200.66 109.22) (xy 205.74 109.22)
 		)
 		(stroke
@@ -4452,6 +4882,16 @@
 			(type default)
 		)
 		(uuid "8d381d69-35ad-4533-bc6f-ceb5e2b8cc27")
+	)
+	(wire
+		(pts
+			(xy 331.47 137.16) (xy 340.36 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e04a51f-3f2a-4400-ad2d-7a421a0d27fc")
 	)
 	(wire
 		(pts
@@ -4625,6 +5065,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 121.92) (xy 340.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d565e1-d5a3-416b-bfcc-07f9eaacbdba")
+	)
+	(wire
+		(pts
 			(xy 200.66 101.6) (xy 205.74 101.6)
 		)
 		(stroke
@@ -4672,6 +5122,16 @@
 			(type default)
 		)
 		(uuid "bacc4428-0600-4d4f-8669-4b83d47658d5")
+	)
+	(wire
+		(pts
+			(xy 300.99 173.99) (xy 295.91 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd917926-0e33-4811-bee3-0f344759dab1")
 	)
 	(wire
 		(pts
@@ -4765,6 +5225,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 147.32) (xy 205.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd717da4-f9dd-45c4-98b6-3943f6eabdbb")
+	)
+	(wire
+		(pts
 			(xy 162.56 166.37) (xy 162.56 172.72)
 		)
 		(stroke
@@ -4772,6 +5242,16 @@
 			(type default)
 		)
 		(uuid "df65c241-41d3-423f-b6f2-74c726e207cf")
+	)
+	(wire
+		(pts
+			(xy 302.26 172.72) (xy 298.45 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1265554-9b90-462f-a4c3-e3ea4e5bfada")
 	)
 	(wire
 		(pts
@@ -4802,6 +5282,16 @@
 			(type default)
 		)
 		(uuid "e4a02d49-f9d8-4d0a-8632-2f3dadb19287")
+	)
+	(wire
+		(pts
+			(xy 289.56 129.54) (xy 303.53 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c866dc-3add-4f60-923a-eeadae084292")
 	)
 	(wire
 		(pts
@@ -4862,6 +5352,16 @@
 			(type default)
 		)
 		(uuid "efab9980-f1ff-4d1c-b6ec-85e1719fea40")
+	)
+	(wire
+		(pts
+			(xy 300.99 175.26) (xy 300.99 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f012fd58-8026-40fc-b73a-61477337321e")
 	)
 	(wire
 		(pts
@@ -4973,6 +5473,29 @@
 		)
 		(uuid "fddad582-bc2b-4800-8026-4b9d8b803d23")
 	)
+	(global_label "BLE_P1_7"
+		(shape input)
+		(at 205.74 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "099937b1-2dac-46f5-9ed0-809ba642d320")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7965 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DISP_CS"
 		(shape output)
 		(at 185.42 82.55 90)
@@ -5002,6 +5525,29 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "BLE_P0_0"
+		(shape output)
+		(at 340.36 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e71381f-1a84-41e2-b2ac-4cb2fed0a136")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.4165 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5446,6 +5992,29 @@
 			)
 		)
 	)
+	(global_label "BLE_P1_3"
+		(shape output)
+		(at 289.56 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6346329c-4cc1-4170-85ca-1860cf74f2e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.5035 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DISP_VCOM"
 		(shape output)
 		(at 173.99 82.55 90)
@@ -5478,6 +6047,29 @@
 			)
 		)
 	)
+	(global_label "BLE_P1_3"
+		(shape output)
+		(at 205.74 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67b73680-2583-4f14-ac3b-21cc0caafde0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7965 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SWDIO"
 		(shape bidirectional)
 		(at 205.74 109.22 0)
@@ -5498,6 +6090,29 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BLE_UART_BLE_TO_MCU"
+		(shape output)
+		(at 295.91 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f1f38ca-1dea-42a0-8afe-4977b2677bc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.1535 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5579,7 +6194,7 @@
 			)
 		)
 	)
-	(global_label "BLE_P0_2"
+	(global_label "BLE_P1_2"
 		(shape input)
 		(at 154.94 82.55 90)
 		(fields_autoplaced yes)
@@ -5599,6 +6214,29 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BLE_P1_2"
+		(shape output)
+		(at 289.56 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85a7abda-793d-4faf-99a6-9022a68ae41d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.5035 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5873,6 +6511,29 @@
 			)
 		)
 	)
+	(global_label "BLE_UART_MCU_TO_BLE"
+		(shape input)
+		(at 295.91 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afb1f7d2-ab09-4851-a20d-563c299fa5c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.1535 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DAC_SCK"
 		(shape output)
 		(at 132.08 82.55 90)
@@ -5985,6 +6646,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "BLE_P1_6"
+		(shape output)
+		(at 205.74 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd2d34cd-0990-4825-b48a-60084a3efd1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7965 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6201,6 +6885,29 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "BLE_P2_7"
+		(shape output)
+		(at 340.36 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec2d2a3e-1a39-4d61-8280-08265ac904c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.4165 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6459,7 +7166,7 @@
 			)
 		)
 		(property "Value" "RN4871-I/RM128"
-			(at 309.118 149.098 0)
+			(at 317.246 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6586,6 +7293,124 @@
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:Connector/50Mil/Header_50mil_1x03")
+		(at 308.61 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "108e152c-4912-48aa-9090-c4cf4fe8d64a")
+		(property "Reference" "J8"
+			(at 313.69 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Header_100mil_1x02"
+			(at 313.69 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sldrnrd:Header_50mil_1x03"
+			(at 308.61 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 308.61 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.27mm pitch pin header, single row, 2-pin, THT"
+			(at 308.61 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Hong Cheng"
+			(at 308.61 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "HC-PZ127-7.2L-1x3PZ"
+			(at 308.61 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C42162998"
+			(at 308.61 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "02"
+			(uuid "8a0e606c-44c7-4602-b31a-963696fe3784")
+		)
+		(pin "01"
+			(uuid "2aa2609d-4577-406d-b4e6-9eaf1f0b5618")
+		)
+		(pin "03"
+			(uuid "5b52a66f-71d4-418d-af1a-826a73af7688")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7867,7 +8692,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_100n")
+		(lib_id "sldrnrd:Capacitor/C1206_10u")
 		(at 373.38 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -7887,7 +8712,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10u"
 			(at 370.84 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7897,7 +8722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_0603"
+		(property "Footprint" "sldrnrd:C_1206"
 			(at 373.38 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7919,7 +8744,7 @@
 				)
 			)
 		)
-		(property "Description" "100nF Capacitor, 0603"
+		(property "Description" "10uF Capacitor, 1206"
 			(at 373.38 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7930,7 +8755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C70462"
 			(at 373.38 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7952,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 373.38 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7974,7 +8799,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC0603KRX7R9BB104"
+		(property "MPN" "CC1206KKX7R8BB106"
 			(at 373.38 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8852,6 +9677,83 @@
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 298.45 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff9dd328-e68a-4b44-9d64-484cc9ffef50")
+		(property "Reference" "#PWR0174"
+			(at 298.45 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 298.45 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 298.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 298.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 298.45 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d23b3c4-9ebf-4c71-9911-21f428962665")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/c7060150-8e88-4322-90f4-a2380d2eedad"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
