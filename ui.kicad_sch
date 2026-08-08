@@ -529,6 +529,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Capacitor/C0603_1n"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1n"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:C_0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1nF Capacitor, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1588"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL10B102KB8NNNC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor/C0603_1n_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor/C0603_1n_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Capacitor/C0805_2u2"
 			(pin_numbers
 				(hide yes)
@@ -4505,10 +4692,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Sensor/LM35"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "sldrnrd:Sensor/TMP236A4DBZR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4524,7 +4708,7 @@
 					)
 				)
 			)
-			(property "Value" "LM35"
+			(property "Value" "TMP236A4DBZR"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4545,7 +4729,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Sensor/LM35.pdf"
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Sensor/TMP23x.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4556,7 +4740,7 @@
 					)
 				)
 			)
-			(property "Description" "LM35 Analog Temperature Sensor 10mV/C"
+			(property "Description" "TMP236 Analog Output Temperature Sensor, SOT-23-3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4567,7 +4751,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C9900081740"
+			(property "Manufacturer" "Texas Instruments"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4578,7 +4762,40 @@
 					)
 				)
 			)
-			(symbol "Sensor/LM35_0_1"
+			(property "MPN" "TMP236A4DBZR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C2872164"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "temperature sensor analog output"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Sensor/TMP236A4DBZR_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -4591,11 +4808,11 @@
 					)
 				)
 			)
-			(symbol "Sensor/LM35_1_1"
+			(symbol "Sensor/TMP236A4DBZR_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VS+"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4999,6 +5216,12 @@
 		(uuid "4b40a272-2afd-4e95-ba7e-65c381625664")
 	)
 	(junction
+		(at 373.38 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b561d2b-2fd7-4ab2-b1c2-68ebba0773b1")
+	)
+	(junction
 		(at 99.06 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5253,6 +5476,16 @@
 			(type default)
 		)
 		(uuid "05faca08-bfa2-40c4-9a2a-5e7fb67ed5c3")
+	)
+	(wire
+		(pts
+			(xy 373.38 63.5) (xy 375.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ea553f-396c-4ae7-b903-3ab26517a53d")
 	)
 	(wire
 		(pts
@@ -5786,7 +6019,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 63.5) (xy 375.92 63.5)
+			(xy 372.11 63.5) (xy 373.38 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5943,6 +6176,16 @@
 			(type default)
 		)
 		(uuid "577798ff-bb09-40f0-a4f5-010b65919d7d")
+	)
+	(wire
+		(pts
+			(xy 373.38 71.12) (xy 373.38 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cd8c2c-af08-4fdd-8284-efcb0334e18e")
 	)
 	(wire
 		(pts
@@ -6743,6 +6986,16 @@
 			(type default)
 		)
 		(uuid "a927ab28-08d9-4b5b-8a08-12b0bf337d2f")
+	)
+	(wire
+		(pts
+			(xy 373.38 63.5) (xy 373.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94f6a0d-59ee-414f-9169-987a2495d588")
 	)
 	(wire
 		(pts
@@ -9295,7 +9548,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Sensor/LM35")
+		(lib_id "sldrnrd:Sensor/TMP236A4DBZR")
 		(at 354.33 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -9306,7 +9559,7 @@
 		(dnp no)
 		(uuid "11f58116-8f36-4d0c-b7e7-7bb614265ae8")
 		(property "Reference" "U13"
-			(at 353.248 57.404 0)
+			(at 354.33 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9315,8 +9568,8 @@
 				)
 			)
 		)
-		(property "Value" "LM35"
-			(at 350.454 69.85 0)
+		(property "Value" "TMP236A4DBZR"
+			(at 354.33 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9336,7 +9589,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Sensor/LM35.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Sensor/TMP23x.pdf"
 			(at 354.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9347,7 +9600,7 @@
 				)
 			)
 		)
-		(property "Description" "LM35 Analog Temperature Sensor 10mV/C"
+		(property "Description" "TMP236 Analog Output Temperature Sensor, SOT-23-3"
 			(at 354.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9358,7 +9611,29 @@
 				)
 			)
 		)
-		(property "LCSC" "C9900081740"
+		(property "LCSC" "C2872164"
+			(at 354.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 354.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "TMP236A4DBZR"
 			(at 354.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -11751,6 +12026,83 @@
 		)
 	)
 	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 373.38 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "526c3342-29ab-411d-a915-2f5065ed87aa")
+		(property "Reference" "#PWR0182"
+			(at 373.38 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 373.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8e8995b-6b38-44fe-86cd-168378f2c0de")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/e3bfb176-0916-4121-bce2-c51ac090cbf3"
+					(reference "#PWR0182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sldrnrd:Resistor/R0603_33k")
 		(at 76.2 162.56 90)
 		(unit 1)
@@ -13946,6 +14298,140 @@
 		)
 	)
 	(symbol
+		(lib_id "sldrnrd:Capacitor/C0603_1n")
+		(at 373.38 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88e2112c-1c4b-4768-b8d2-1e618b57c3c0")
+		(property "Reference" "C72"
+			(at 375.92 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n"
+			(at 370.84 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0603"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1nF Capacitor, 0603"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1588"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL10B102KB8NNNC"
+			(at 373.38 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dde221f3-a615-48e6-97e7-3ea6acb20181")
+		)
+		(pin "2"
+			(uuid "874342aa-6c27-44a3-8a69-85435a674c83")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/e3bfb176-0916-4121-bce2-c51ac090cbf3"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sldrnrd:Resistor/R0603_5k1")
 		(at 139.7 238.76 0)
 		(unit 1)
@@ -15958,7 +16444,7 @@
 			)
 		)
 		(property "Value" "LS027B7DH01"
-			(at 215.392 78.994 0)
+			(at 220.218 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17749,5 +18235,4 @@
 			(page "7")
 		)
 	)
-	(embedded_fonts no)
 )
