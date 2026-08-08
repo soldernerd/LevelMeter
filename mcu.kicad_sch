@@ -5643,7 +5643,7 @@
 			)
 		)
 	)
-	(global_label "~{CHARGE_EN}"
+	(global_label "CHARGE_EN"
 		(shape output)
 		(at 162.56 82.55 90)
 		(fields_autoplaced yes)

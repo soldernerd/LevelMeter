@@ -1,0 +1,65 @@
+PinNumber;PinName;SignalName;PinConfiguration;Comments
+1;PC11;DAC_Clock;TMR1_CH4;Clock signal to DAC, not to be confused with SPI clock
+2;PC12;DAC_MOSI;SPI3_MOSI;SPI3 data output to DAC
+3;PC13;DAC_FSYNC;GPIO Output;SPI3 ChipSelect output to DAC
+4;PC14;;RCC_OSC32_IN;Real-time clock crystal 32.768kHz
+5;PC15;;RCC_OSC32_OUT;Real-time clock crystal 32.768kHz
+6;VBAT;3V3_STANDBY;VBAT;Always-on power supply
+7;VREF+;3V3_STANDBY;VREF+;Always-on power supply
+8;VDD;3V3_STANDBY;VDD;Always-on power supply
+9;VSS;GND;VSS;Digital and analog ground connection
+10;PF0;;RCC_OSC_IN;High-speed oscillator crystal 16MHz
+11;PF1;;RCC_OSC_OUT;High-speed oscillator crystal 16MHz
+12;!NRST!;!RST!;Reset state;Reset pin for programming / debug header
+13;PC0;Not connected;Reset state;
+14;PC1;Not connected;Reset state;
+15;PC2;Not connected;Reset state;
+16;PC3;ADC_SYNC_RESET;GPIO Output;Reset or sync output to ADC
+17;PA0;ENC_1SW;SYS_WKUP1;System wakeup. Encoder 1 push-button input
+18;PA1;ADC_READY;GPIO Input;Ready input from ADC
+19;PA2;VBUS_SENSE;SYS_WKUP4;System wakeup. USB bus voltage after voltage divider
+20;PA3;CHARGE_SENSE;GPIO Input;Charge sense input signal from TP4056 charge controller
+21;PA4;ADC_CS;SPI1_NSS;SPI1 ChipSelect output for ADC
+22;PA5;ADC_SCK;SPI1_SCK;SPI1 clock output for ADC
+23;PA6;ADC_MISO;SPI1_MISO;SPI1 data input from ADC
+24;PA7;ADC_MOSI;SPI1_MOSI;SPI1 data output to ADC
+25;PC4;ENC_1A;GPIO_EXTI4;Encoder 1 signal A
+26;PC5;ENC_2SW;SYS_WKUP5;System wakeup. Encoder 2 push-button input
+27;PB0;ENC_1B;GPIO_EXTI0;Encoder 1 signal B
+28;PB1;ENC_2A;GPIO_EXTI1;Encoder 2 signal A
+29;PB2;ENC_2B;GPIO_EXTI2;Encoder 2 signal B
+30;PB10;ADC_CLOCK;TMR2_CH3;Clock signal to ADC, not to be confused with SPI1 clock
+31;PB11;LED_STATUS;GPIO Output;Status LED output
+32;PB12;LED_PWR;GPIO Output;Power LED output
+33;PB13;Not connected;Reset state;
+34;PB14;Not connected;Reset state;
+35;PB15;BLE_P1_3;GPIO Input;Bluetooth module P1_3 pin. May become output depending on function
+36;PA8;BLE_P1_7;GPIO Input;Bluetooth module P1_7 pin. May become output depending on function
+37;PA9;BLE_P1_6;GPIO Input;Bluetooth module P1_6 pin. May become output depending on function
+38;PC6;!3V3_EN!;GPIO Output;Signal to enable peripheral 3.3V  supply. Low=on, High=off
+39;PC7;5V_EN;GPIO Output;Singal to enable +/- 5V supply. Low=off, High=on
+40;PD8;DEBUG_UART_MCU_TO_PC;USART3_RX;UART link to PC via STLINK programmer
+41;PD9;DEBUG_UART_PC_TO_MCU;USART3_TX;UART link to PC via STLINK programmer
+42;PA10;TEMP_SENSE_EXT;Analog input;Analog input signal from external temperature sensor
+43;PA11;USB_D-;USB_DM;USB data singal -
+44;PA12;USB_D+;USB_DP;USB data singal +
+45;PA13;SWDIO;SYS_SWDIO;Programming data singal via debug header / STLINK
+46;PA14;SWCLK;SYS_SWCLK;Programming clock singal via debug header / STLINK
+47;PA15;BATTERY_SENSE;Analog input;Analog input signal to measure battery voltage
+48;PC8;TEMP_SENSE;Analog input;Analog input singal from on-board temperature sensor
+49;PC9;BUZZER;TMR23_CH4;PWM signal for buzzer
+50;PD0;DISP_CS;SPI2_NSS;SPI2 ChipSelect output to display
+51;PD1;DISP_SCK;SPI2_SCK;Display SPI clock
+52;PD2;DISP_ON;GPIO Output;Display enable signal
+53;PD3;DISP_VCOM;GPIO Output;Display VCOM signal. Needs to be toggled continuously
+54;PD4;DISP_MOSI;SPI2_MOSI;Display SPI data
+55;PD5;STANDBY_SENSE;GPIO Input;Standby input signal from TP4056 charge controller
+56;PD6;CHARGE_EN;GPIO Output;Charge signal to TP4056 charge controller. High=charge, low=don't charge
+57;PB3;SWO;Reset state;Signal to debug header. Unused.
+58;PB4;BLE_P1_2;GPIO Input;Bluetooth module P1_2 pin. May become output depending on function
+59;PB5;!BLE_RESET!;GPIO Output;Reset signal to Bluetooth module. Low=reset, high=normal
+60;PB6;EEPROM_SCL;I2C1_SCL;I2C clock for BL24C256A eprom and BME280 environmental module
+61;PB7;EEPROM_SDA;I2C1_SDA;I2C data for BL24C256A eprom and BME280 environmental module
+62;PB8;BLE_UART_MCU_TO_BLE;USART6_TX;UART link to bluetooth module
+63;PB9;BLE_UART_BLE_TO_MCU;USART6_RX;UART link to bluetooth module
+64;PB10;DAC_SCK;SPI3_SCK;SPI clock output for DAC

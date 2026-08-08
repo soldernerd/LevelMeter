@@ -7302,7 +7302,7 @@
 			)
 		)
 	)
-	(global_label "~{CHARGE_EN}"
+	(global_label "CHARGE_EN"
 		(shape input)
 		(at 424.18 95.25 0)
 		(fields_autoplaced yes)
