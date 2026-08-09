@@ -1242,193 +1242,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Capacitor/C0603_1u"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1u"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "sldrnrd:C_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1uF Capacitor, 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C29936"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Samsung"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL10B105KA8NNNC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor/C0603_1u_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Capacitor/C0603_1u_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "sldrnrd:Capacitor/C0603_220n"
 			(pin_numbers
 				(hide yes)
@@ -1616,7 +1429,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Capacitor/C1206_10u"
+		(symbol "sldrnrd:Capacitor/C0805_10u"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1649,7 +1462,7 @@
 					)
 				)
 			)
-			(property "Footprint" "sldrnrd:C_1206"
+			(property "Footprint" "sldrnrd:C_0805"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1671,7 +1484,7 @@
 					)
 				)
 			)
-			(property "Description" "10uF Capacitor, 1206"
+			(property "Description" "10uF Capacitor, 0805"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1682,7 +1495,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C70462"
+			(property "LCSC" "C440198"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1693,7 +1506,7 @@
 					)
 				)
 			)
-			(property "Dielectric" "X7R"
+			(property "Dielectric" "X5R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1704,7 +1517,7 @@
 					)
 				)
 			)
-			(property "Voltage" "25V"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1715,7 +1528,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Yageo"
+			(property "Manufacturer" "Murata"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1726,7 +1539,7 @@
 					)
 				)
 			)
-			(property "MPN" "CC1206KKX7R8BB106"
+			(property "MPN" "GRM21BR61H106KE43L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1737,7 +1550,7 @@
 					)
 				)
 			)
-			(symbol "Capacitor/C1206_10u_0_1"
+			(symbol "Capacitor/C0805_10u_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1763,7 +1576,194 @@
 					)
 				)
 			)
-			(symbol "Capacitor/C1206_10u_1_1"
+			(symbol "Capacitor/C0805_10u_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "sldrnrd:Capacitor/C0805_1u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:C_0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1uF Capacitor, 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C28323"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Samsung"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CL21B105KBFNNNE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor/C0805_1u_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor/C0805_1u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -4404,7 +4404,7 @@
 		(uuid "057de37e-6cb3-4d0c-a74d-6d9137597215")
 	)
 	(junction
-		(at 341.63 71.12)
+		(at 350.52 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05edab74-ea30-4c5f-a36c-afe0b9b8ab34")
@@ -4416,16 +4416,16 @@
 		(uuid "0c01300f-65ed-4645-a846-05b0c756e7a9")
 	)
 	(junction
-		(at 356.87 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11fce8c8-550b-4b93-a067-2e062880efb9")
-	)
-	(junction
 		(at 85.09 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15a19de9-c414-4b5a-b2e2-c2bdafe51131")
+	)
+	(junction
+		(at 266.7 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16543f7a-53ee-44cd-be88-3b92cc53595e")
 	)
 	(junction
 		(at 85.09 254)
@@ -4530,7 +4530,7 @@
 		(uuid "a2fbb9b0-c34b-4577-a18c-860cfacceb5a")
 	)
 	(junction
-		(at 276.86 93.98)
+		(at 266.7 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a92a6b1e-5789-4825-ac77-5fb46cb9bec3")
@@ -4566,16 +4566,16 @@
 		(uuid "c2e6d6e1-e12d-4156-a41c-8394b7341b60")
 	)
 	(junction
-		(at 276.86 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3abb45f-d429-46a3-8870-bbf9dc21358d")
-	)
-	(junction
 		(at 326.39 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3f92eaa-6112-41e8-85db-39e3a734e70d")
+	)
+	(junction
+		(at 365.76 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1819d09-79f4-49a4-9b88-0b58e7cffaec")
 	)
 	(junction
 		(at 101.6 149.86)
@@ -4707,7 +4707,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 71.12) (xy 356.87 71.12)
+			(xy 360.68 71.12) (xy 365.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4877,7 +4877,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 78.74) (xy 360.68 78.74)
+			(xy 365.76 78.74) (xy 369.57 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 78.74) (xy 285.75 93.98)
+			(xy 275.59 78.74) (xy 275.59 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4977,6 +4977,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 78.74) (xy 297.18 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a5d9cd-ef7f-468d-b728-2c251ca907b0")
+	)
+	(wire
+		(pts
 			(xy 335.28 236.22) (xy 339.09 236.22)
 		)
 		(stroke
@@ -4997,7 +5007,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 81.28) (xy 341.63 81.28)
+			(xy 317.5 81.28) (xy 350.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5047,7 +5057,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 92.71) (xy 276.86 93.98)
+			(xy 266.7 92.71) (xy 266.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5074,16 +5084,6 @@
 			(type default)
 		)
 		(uuid "2eb933f7-a271-4105-b1b3-102373106762")
-	)
-	(wire
-		(pts
-			(xy 262.89 81.28) (xy 297.18 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eea0727-4f4f-4840-8df5-8f6dee8a5402")
 	)
 	(wire
 		(pts
@@ -5117,16 +5117,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 78.74) (xy 285.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "342f9103-0557-4370-9668-810c1735647b")
-	)
-	(wire
-		(pts
 			(xy 294.64 76.2) (xy 297.18 76.2)
 		)
 		(stroke
@@ -5144,6 +5134,16 @@
 			(type default)
 		)
 		(uuid "3541527f-0cdc-4856-92ad-e18237ed473d")
+	)
+	(wire
+		(pts
+			(xy 252.73 81.28) (xy 297.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37040bf2-b115-44ca-ace3-1d8291a14f48")
 	)
 	(wire
 		(pts
@@ -5197,7 +5197,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 81.28) (xy 341.63 71.12)
+			(xy 350.52 81.28) (xy 350.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5317,7 +5317,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 71.12) (xy 331.47 71.12)
+			(xy 294.64 71.12) (xy 340.36 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5397,7 +5397,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 93.98) (xy 276.86 93.98)
+			(xy 275.59 93.98) (xy 266.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5447,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 102.87) (xy 276.86 104.14)
+			(xy 266.7 102.87) (xy 266.7 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5807,6 +5807,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 97.79) (xy 280.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7341741e-7168-4f66-a933-dc4079cf5489")
+	)
+	(wire
+		(pts
 			(xy 50.8 149.86) (xy 55.88 149.86)
 		)
 		(stroke
@@ -5887,7 +5897,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 76.2) (xy 276.86 76.2)
+			(xy 252.73 76.2) (xy 266.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6047,6 +6057,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 102.87) (xy 332.74 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90545506-c0cc-4cb5-808d-febfe3de011d")
+	)
+	(wire
+		(pts
 			(xy 356.87 184.15) (xy 351.79 184.15)
 		)
 		(stroke
@@ -6104,6 +6124,16 @@
 			(type default)
 		)
 		(uuid "95a3595c-12e8-4374-8682-2c4aa162a47e")
+	)
+	(wire
+		(pts
+			(xy 280.67 102.87) (xy 280.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98139992-d070-4230-b466-5d9d24ffefb2")
 	)
 	(wire
 		(pts
@@ -6167,7 +6197,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 71.12) (xy 344.17 71.12)
+			(xy 350.52 71.12) (xy 353.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6247,7 +6277,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 78.74) (xy 356.87 78.74)
+			(xy 317.5 78.74) (xy 365.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6417,7 +6447,7 @@
 	)
 	(wire
 		(pts
-			(xy 356.87 71.12) (xy 356.87 78.74)
+			(xy 365.76 71.12) (xy 365.76 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6457,7 +6487,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 76.2) (xy 276.86 85.09)
+			(xy 266.7 76.2) (xy 266.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6527,6 +6557,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 97.79) (xy 332.74 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8928887-73fd-451e-ac2d-559da80f829b")
+	)
+	(wire
+		(pts
 			(xy 115.57 91.44) (xy 120.65 91.44)
 		)
 		(stroke
@@ -6567,7 +6607,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 71.12) (xy 341.63 71.12)
+			(xy 347.98 71.12) (xy 350.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -6584,6 +6624,16 @@
 			(type default)
 		)
 		(uuid "ce2bf542-9d5b-4485-b787-92b1ef838049")
+	)
+	(wire
+		(pts
+			(xy 280.67 83.82) (xy 290.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1855ba-cb09-42e6-985e-a8122db6aef8")
 	)
 	(wire
 		(pts
@@ -6697,6 +6747,16 @@
 	)
 	(wire
 		(pts
+			(xy 332.74 76.2) (xy 326.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e220c4b5-1645-4f5f-9ba7-e40e88394f8e")
+	)
+	(wire
+		(pts
 			(xy 71.12 264.16) (xy 71.12 266.7)
 		)
 		(stroke
@@ -6807,7 +6867,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 93.98) (xy 276.86 95.25)
+			(xy 266.7 93.98) (xy 266.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6824,16 +6884,6 @@
 			(type default)
 		)
 		(uuid "f06f1cf3-e21b-4691-a8ee-81d29b05ce5d")
-	)
-	(wire
-		(pts
-			(xy 276.86 76.2) (xy 294.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13dac67-123d-4107-9e63-633be8ef831a")
 	)
 	(wire
 		(pts
@@ -6907,6 +6957,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 76.2) (xy 294.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9591899-949b-4d9f-91af-920a879ca4f8")
+	)
+	(wire
+		(pts
 			(xy 356.87 189.23) (xy 339.09 189.23)
 		)
 		(stroke
@@ -6960,7 +7020,7 @@
 	)
 	(global_label "SineSignal"
 		(shape input)
-		(at 262.89 81.28 180)
+		(at 252.73 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6970,7 +7030,7 @@
 		)
 		(uuid "0bcc0bb4-cbde-4007-a343-1df3f2674c89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.9264 81.28 0)
+			(at 239.7664 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6983,7 +7043,7 @@
 	)
 	(global_label "ExciterA"
 		(shape output)
-		(at 262.89 76.2 180)
+		(at 252.73 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6993,7 +7053,7 @@
 		)
 		(uuid "11594542-f7fb-4668-9267-9b182653eb00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.3452 76.2 0)
+			(at 242.1852 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7305,7 +7365,7 @@
 	)
 	(global_label "ExciterB"
 		(shape output)
-		(at 360.68 78.74 0)
+		(at 369.57 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7315,7 +7375,7 @@
 		)
 		(uuid "496aa48c-24f6-46b0-b344-7952b3ae0aee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 371.4062 78.74 0)
+			(at 380.2962 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8126,6 +8186,83 @@
 		)
 	)
 	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 332.74 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02c5fa19-46e3-40e4-a8ab-8029276de4b9")
+		(property "Reference" "#PWR0186"
+			(at 332.74 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 332.74 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 332.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 332.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5fd53628-c29b-4be3-b6a5-a56bafc578f1")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/8fba0ce8-7d88-4764-99d3-e22ea4fdebc5"
+					(reference "#PWR0186")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "sldrnrd:Resistor/R0603_10k")
 		(at 71.12 260.35 0)
 		(unit 1)
@@ -8918,6 +9055,143 @@
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/8fba0ce8-7d88-4764-99d3-e22ea4fdebc5"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
+		(at 332.74 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13709e33-4750-4262-bd32-ecc41d5f5c30")
+		(property "Reference" "C74"
+			(at 335.28 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 335.28 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0805"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF Capacitor, 0805"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 332.74 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "159f2515-334d-4fa2-9a91-c188482d3245")
+		)
+		(pin "1"
+			(uuid "b65bb171-31e3-4eec-984e-22c2f27113d9")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/8fba0ce8-7d88-4764-99d3-e22ea4fdebc5"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -10018,7 +10292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_1u")
+		(lib_id "sldrnrd:Capacitor/C0805_1u")
 		(at 240.03 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -10041,16 +10315,17 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 242.57 228.5999 90)
+			(at 242.57 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_0603"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 240.03 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10072,7 +10347,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF Capacitor, 0603"
+		(property "Description" "1uF Capacitor, 0805"
 			(at 240.03 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10083,7 +10358,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29936"
+		(property "LCSC" "C28323"
 			(at 240.03 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10105,7 +10380,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 240.03 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -10127,7 +10402,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 240.03 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -11623,7 +11898,7 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:Resistor/R0805_10k")
-		(at 276.86 99.06 0)
+		(at 266.7 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11634,7 +11909,7 @@
 		(fields_autoplaced yes)
 		(uuid "59d5f988-bc12-4cc6-83f6-29057699dd14")
 		(property "Reference" "R54"
-			(at 279.4 97.7899 0)
+			(at 269.24 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11645,7 +11920,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 279.4 100.3299 90)
+			(at 269.24 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11655,7 +11930,7 @@
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0805"
-			(at 276.86 99.06 0)
+			(at 266.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11666,7 +11941,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 99.06 0)
+			(at 266.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11677,7 +11952,7 @@
 			)
 		)
 		(property "Description" "10k Resistor, 0805, 1%, 150V, 125mW"
-			(at 276.86 99.06 0)
+			(at 266.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11688,7 +11963,7 @@
 			)
 		)
 		(property "Manufacturer" "Uni-Royal"
-			(at 276.86 99.06 0)
+			(at 266.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11699,7 +11974,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1002T5E"
-			(at 276.86 99.06 0)
+			(at 266.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11710,7 +11985,7 @@
 			)
 		)
 		(property "LCSC" "C17414"
-			(at 276.86 99.06 0)
+			(at 266.7 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12986,6 +13261,83 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:PowerFlag/GND")
+		(at 280.67 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ef09428-bff0-4216-9e07-730f3c4b16c2")
+		(property "Reference" "#PWR0185"
+			(at 280.67 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
+			(at 280.67 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "093f1c1b-94fd-46f0-9a0b-197b166efe71")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/8fba0ce8-7d88-4764-99d3-e22ea4fdebc5"
+					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:PowerFlag/GND")
 		(at 234.95 234.95 0)
 		(unit 1)
 		(body_style 1)
@@ -13856,6 +14208,143 @@
 			(project "Levelmeter"
 				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/8fba0ce8-7d88-4764-99d3-e22ea4fdebc5"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
+		(at 280.67 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "768276ff-d00e-46f3-8a53-f6df9eae5dde")
+		(property "Reference" "C73"
+			(at 283.21 99.0599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 283.21 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sldrnrd:C_0805"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10uF Capacitor, 0805"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C440198"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GRM21BR61H106KE43L"
+			(at 280.67 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9923f48-9dd1-48b2-810e-ec953ca515cd")
+		)
+		(pin "1"
+			(uuid "f96c94a5-f1d3-4592-a563-9d34f38ecd61")
+		)
+		(instances
+			(project "Levelmeter"
+				(path "/7d35597c-fbf9-4ce7-8410-0e7922679ea3/8fba0ce8-7d88-4764-99d3-e22ea4fdebc5"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -14992,7 +15481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 60.96 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -15022,7 +15511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15044,7 +15533,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15055,7 +15544,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15066,7 +15555,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15077,7 +15566,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15088,7 +15577,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15099,7 +15588,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 60.96 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15280,7 +15769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_1u")
+		(lib_id "sldrnrd:Capacitor/C0805_1u")
 		(at 185.42 227.33 0)
 		(unit 1)
 		(body_style 1)
@@ -15303,16 +15792,17 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 187.96 228.5999 90)
+			(at 187.96 228.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_0603"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 185.42 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15334,7 +15824,7 @@
 				)
 			)
 		)
-		(property "Description" "1uF Capacitor, 0603"
+		(property "Description" "1uF Capacitor, 0805"
 			(at 185.42 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15345,7 +15835,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29936"
+		(property "LCSC" "C28323"
 			(at 185.42 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15367,7 +15857,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 185.42 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15389,7 +15879,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "CL21B105KBFNNNE"
 			(at 185.42 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -15417,7 +15907,7 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:Resistor/R0603_10k")
-		(at 335.28 71.12 90)
+		(at 344.17 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15428,7 +15918,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa87aa09-2e8f-4128-ad12-3c6dddbef41a")
 		(property "Reference" "R55"
-			(at 335.28 64.77 90)
+			(at 344.17 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15438,7 +15928,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 335.28 67.31 90)
+			(at 344.17 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15448,7 +15938,7 @@
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
-			(at 335.28 71.12 0)
+			(at 344.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15459,7 +15949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 335.28 71.12 0)
+			(at 344.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15470,7 +15960,7 @@
 			)
 		)
 		(property "Description" "10k Resistor, 0603, 1%, 75V, 100mW"
-			(at 335.28 71.12 0)
+			(at 344.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15481,7 +15971,7 @@
 			)
 		)
 		(property "Manufacturer" "Uni-Royal"
-			(at 335.28 71.12 0)
+			(at 344.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15492,7 +15982,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 335.28 71.12 0)
+			(at 344.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +15993,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 335.28 71.12 0)
+			(at 344.17 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16305,7 +16795,7 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:Resistor/R0603_10k")
-		(at 347.98 71.12 90)
+		(at 356.87 71.12 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16316,7 +16806,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8d9aa07-7656-4aac-bb3b-f91eaf7b2393")
 		(property "Reference" "R56"
-			(at 347.98 64.77 90)
+			(at 356.87 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16326,7 +16816,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 347.98 67.31 90)
+			(at 356.87 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16336,7 +16826,7 @@
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
-			(at 347.98 71.12 0)
+			(at 356.87 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16347,7 +16837,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 71.12 0)
+			(at 356.87 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16358,7 +16848,7 @@
 			)
 		)
 		(property "Description" "10k Resistor, 0603, 1%, 75V, 100mW"
-			(at 347.98 71.12 0)
+			(at 356.87 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16369,7 +16859,7 @@
 			)
 		)
 		(property "Manufacturer" "Uni-Royal"
-			(at 347.98 71.12 0)
+			(at 356.87 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16380,7 +16870,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1002T5E"
-			(at 347.98 71.12 0)
+			(at 356.87 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16391,7 +16881,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 347.98 71.12 0)
+			(at 356.87 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17124,7 +17614,7 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:Resistor/R0805_100k")
-		(at 276.86 88.9 0)
+		(at 266.7 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17135,7 +17625,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc7da0c7-4284-4d77-ac85-43c9352836bf")
 		(property "Reference" "R53"
-			(at 279.4 87.6299 0)
+			(at 269.24 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17146,7 +17636,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 279.4 90.1699 90)
+			(at 269.24 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17156,7 +17646,7 @@
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0805"
-			(at 276.86 88.9 0)
+			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17167,7 +17657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 88.9 0)
+			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17178,7 +17668,7 @@
 			)
 		)
 		(property "Description" "100k Resistor, 0805, 1%, 150V, 125mW"
-			(at 276.86 88.9 0)
+			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17189,7 +17679,7 @@
 			)
 		)
 		(property "Manufacturer" "Uni-Royal"
-			(at 276.86 88.9 0)
+			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17200,7 +17690,7 @@
 			)
 		)
 		(property "MPN" "0805W8F1003T5E"
-			(at 276.86 88.9 0)
+			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17211,7 +17701,7 @@
 			)
 		)
 		(property "LCSC" "C149504"
-			(at 276.86 88.9 0)
+			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17315,7 +17805,7 @@
 	)
 	(symbol
 		(lib_id "sldrnrd:PowerFlag/GND")
-		(at 276.86 104.14 0)
+		(at 266.7 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17325,7 +17815,7 @@
 		(dnp no)
 		(uuid "d1e15b28-ac54-47fe-af24-e84e1d249bd5")
 		(property "Reference" "#PWR0156"
-			(at 276.86 110.49 0)
+			(at 266.7 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17336,7 +17826,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 107.95 0)
+			(at 266.7 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17346,7 +17836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 104.14 0)
+			(at 266.7 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17357,7 +17847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 104.14 0)
+			(at 266.7 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17368,7 +17858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", ground"
-			(at 276.86 104.14 0)
+			(at 266.7 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

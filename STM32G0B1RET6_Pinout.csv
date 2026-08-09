@@ -54,7 +54,7 @@ PinNumber;PinName;SignalName;PinConfiguration;Comments
 53;PD3;DISP_VCOM;GPIO Output;Display VCOM signal. Needs to be toggled continuously
 54;PD4;DISP_MOSI;SPI2_MOSI;Display SPI data
 55;PD5;STANDBY_SENSE;GPIO Input;Standby input signal from TP4056 charge controller
-56;PD6;CHARGE_EN;GPIO Output;Charge signal to TP4056 charge controller. High=don't charge, low=charge
+56;PD6;CHARGE_EN;GPIO Output;Charge signal to TP4056 charge controller. High=charge, low=don't charge
 57;PB3;SWO;Reset state;Signal to debug header. Unused.
 58;PB4;BLE_P1_2;GPIO Input;Bluetooth module P1_2 pin. May become output depending on function
 59;PB5;!BLE_RESET!;GPIO Output;Reset signal to Bluetooth module. Low=reset, high=normal

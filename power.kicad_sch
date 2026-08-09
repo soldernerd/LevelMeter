@@ -197,6 +197,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "sldrnrd:Capacitor/C0805_10u"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u"
+				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "sldrnrd:C_0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10uF Capacitor, 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C440198"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GRM21BR61H106KE43L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitor/C0805_10u_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Capacitor/C0805_10u_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "sldrnrd:Capacitor/C0805_1u"
 			(pin_numbers
 				(hide yes)
@@ -450,7 +637,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C126589"
+			(property "LCSC" "C377773"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -461,7 +648,7 @@
 					)
 				)
 			)
-			(property "Dielectric" "X7R"
+			(property "Dielectric" "X5R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -472,7 +659,7 @@
 					)
 				)
 			)
-			(property "Voltage" "16V"
+			(property "Voltage" "50V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -483,7 +670,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Murata"
+			(property "Manufacturer" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -494,7 +681,7 @@
 					)
 				)
 			)
-			(property "MPN" "GCM21BR71C225KA64L"
+			(property "MPN" "CL21A225KBQNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -532,193 +719,6 @@
 				)
 			)
 			(symbol "Capacitor/C0805_2u2_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sldrnrd:Capacitor/C1206_10u"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10u"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "sldrnrd:C_1206"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10uF Capacitor, 1206"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C70462"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage" "25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Yageo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CC1206KKX7R8BB106"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitor/C1206_10u_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Capacitor/C1206_10u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -7493,7 +7493,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 82.55 203.2 0)
 		(unit 1)
 		(body_style 1)
@@ -7523,7 +7523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7545,7 +7545,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7556,7 +7556,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7567,7 +7567,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7578,7 +7578,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7589,7 +7589,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -7600,7 +7600,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 82.55 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -8453,7 +8453,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 318.77 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -8483,7 +8483,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8505,7 +8505,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8516,7 +8516,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8527,7 +8527,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8538,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8549,7 +8549,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -8560,7 +8560,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 318.77 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -9845,7 +9845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 463.55 200.66 0)
 		(mirror y)
 		(unit 1)
@@ -9876,7 +9876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9898,7 +9898,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9909,7 +9909,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9920,7 +9920,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9931,7 +9931,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9942,7 +9942,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -9953,7 +9953,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 463.55 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -10681,7 +10681,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C126589"
+		(property "LCSC" "C377773"
 			(at 394.97 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10692,7 +10692,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 394.97 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10703,7 +10703,7 @@
 				)
 			)
 		)
-		(property "Voltage" "16V"
+		(property "Voltage" "50V"
 			(at 394.97 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10714,7 +10714,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 394.97 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10725,7 +10725,7 @@
 				)
 			)
 		)
-		(property "MPN" "GCM21BR71C225KA64L"
+		(property "MPN" "CL21A225KBQNNNE"
 			(at 394.97 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10908,7 +10908,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 383.54 196.85 0)
 		(unit 1)
 		(body_style 1)
@@ -10938,7 +10938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10960,7 +10960,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10971,7 +10971,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10982,7 +10982,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -10993,7 +10993,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11004,7 +11004,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11015,7 +11015,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 383.54 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -11231,7 +11231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 480.06 200.66 0)
 		(mirror y)
 		(unit 1)
@@ -11262,7 +11262,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11284,7 +11284,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11295,7 +11295,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11306,7 +11306,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11317,7 +11317,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11328,7 +11328,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -11339,7 +11339,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 480.06 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -12100,7 +12100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 76.2 203.2 0)
 		(unit 1)
 		(body_style 1)
@@ -12130,7 +12130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12152,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12163,7 +12163,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12174,7 +12174,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12185,7 +12185,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12196,7 +12196,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -12207,7 +12207,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 76.2 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -13096,7 +13096,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 325.12 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -13126,7 +13126,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13148,7 +13148,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13159,7 +13159,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13170,7 +13170,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13181,7 +13181,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13192,7 +13192,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13203,7 +13203,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 325.12 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -14925,7 +14925,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 88.9 203.2 0)
 		(unit 1)
 		(body_style 1)
@@ -14955,7 +14955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14977,7 +14977,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14988,7 +14988,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -14999,7 +14999,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15010,7 +15010,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15021,7 +15021,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15032,7 +15032,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 88.9 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -15269,7 +15269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 251.46 201.93 0)
 		(unit 1)
 		(body_style 1)
@@ -15299,7 +15299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15321,7 +15321,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15332,7 +15332,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15343,7 +15343,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15354,7 +15354,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15365,7 +15365,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15376,7 +15376,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 251.46 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -16061,7 +16061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 373.38 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -16091,7 +16091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16113,7 +16113,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16124,7 +16124,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16135,7 +16135,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16146,7 +16146,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16157,7 +16157,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16168,7 +16168,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 373.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -17242,7 +17242,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C1206_10u")
+		(lib_id "sldrnrd:Capacitor/C0805_10u")
 		(at 445.77 200.66 0)
 		(mirror y)
 		(unit 1)
@@ -17273,7 +17273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:C_1206"
+		(property "Footprint" "sldrnrd:C_0805"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17295,7 +17295,7 @@
 				)
 			)
 		)
-		(property "Description" "10uF Capacitor, 1206"
+		(property "Description" "10uF Capacitor, 0805"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17306,7 +17306,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C70462"
+		(property "LCSC" "C440198"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17317,7 +17317,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17328,7 +17328,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17339,7 +17339,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Yageo"
+		(property "Manufacturer" "Murata"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17350,7 +17350,7 @@
 				)
 			)
 		)
-		(property "MPN" "CC1206KKX7R8BB106"
+		(property "MPN" "GRM21BR61H106KE43L"
 			(at 445.77 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -17883,4 +17883,5 @@
 			(page "2")
 		)
 	)
+	(embedded_fonts no)
 )
