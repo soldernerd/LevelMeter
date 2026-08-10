@@ -10,7 +10,7 @@
 		(rev "0.1")
 	)
 	(lib_symbols
-		(symbol "sldrnrd:Audio/CPT-9019A-SMT-TR"
+		(symbol "sldrnrd:Audio/CPT-9019S-SMT-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "CPT-9019A-SMT-TR"
+			(property "Value" "CPT-9019S-SMT-TR"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -36,7 +36,7 @@
 					)
 				)
 			)
-			(property "Footprint" "sldrnrd:CPT-9019A"
+			(property "Footprint" "sldrnrd:CPT-9019S"
 				(at 0 -8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -47,7 +47,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019A.pdf"
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019S-SMT-TR.pdf"
 				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,7 +69,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "CUI"
+			(property "Manufacturer" "CUI (Same Sky)"
 				(at 0 -13.97 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(property "MPN" "CPT-9019A-SMT-TR"
+			(property "MPN" "CPT-9019S-SMT-TR"
 				(at 0 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -91,7 +91,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C20181991"
+			(property "LCSC" "C95163"
 				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -102,7 +102,7 @@
 					)
 				)
 			)
-			(symbol "Audio/CPT-9019A-SMT-TR_0_1"
+			(symbol "Audio/CPT-9019S-SMT-TR_0_1"
 				(polyline
 					(pts
 						(xy 2.79 -2.79) (xy -1.27 -2.79) (xy -1.27 2.79) (xy 2.79 2.79) (xy 6.35 6.35) (xy 6.35 -6.35)
@@ -1919,7 +1919,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:LED/LED_Green_0603_NationStar"
+		(symbol "sldrnrd:LED/LED_Red_0603"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1942,184 +1942,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_Green_0603"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "sldrnrd:LED_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Green LED, 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "NationStar"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "NCD0603G2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C87326"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED/LED_Green_0603_NationStar_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED/LED_Green_0603_NationStar_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "sldrnrd:LED/LED_Yellow_0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Yellow_0603"
+			(property "Value" "LED_Red_0603"
 				(at -2.54 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2173,7 +1996,7 @@
 					)
 				)
 			)
-			(property "MPN" "KT-0603Y"
+			(property "MPN" "KT-0603R"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2184,7 +2007,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2287"
+			(property "LCSC" "C2286"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2195,7 +2018,7 @@
 					)
 				)
 			)
-			(symbol "LED/LED_Yellow_0603_0_1"
+			(symbol "LED/LED_Red_0603_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -2233,7 +2056,7 @@
 					)
 				)
 			)
-			(symbol "LED/LED_Yellow_0603_1_1"
+			(symbol "LED/LED_Red_0603_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -10116,7 +9939,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:Header_50mil_1x05"
@@ -10143,39 +9965,6 @@
 		)
 		(property "Description" "1.27mm pitch pin header, single row, 5-pin, THT"
 			(at 138.43 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Hong Cheng"
-			(at 138.43 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "HC-PZ127-7.2L-1x4PZ"
-			(at 138.43 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C42162999"
-			(at 138.43 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11613,7 +11402,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:LED/LED_Green_0603_NationStar")
+		(lib_id "sldrnrd:LED/LED_Red_0603")
 		(at 46.99 260.35 90)
 		(unit 1)
 		(body_style 1)
@@ -11624,7 +11413,7 @@
 		(dnp no)
 		(uuid "480aa444-6104-4f06-b340-b7df1b65da07")
 		(property "Reference" "D3"
-			(at 49.784 260.35 90)
+			(at 46.99 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11633,7 +11422,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Green_0603"
+		(property "Value" "LED_Red_0603"
 			(at 46.99 262.89 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11676,7 +11465,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "NationStar"
+		(property "Manufacturer" "KENTO"
 			(at 46.99 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -11687,7 +11476,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCD0603G2"
+		(property "MPN" "KT-0603R"
 			(at 46.99 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -11698,7 +11487,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C87326"
+		(property "LCSC" "C2286"
 			(at 46.99 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -12501,7 +12290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Audio/CPT-9019A-SMT-TR")
+		(lib_id "sldrnrd:Audio/CPT-9019S-SMT-TR")
 		(at 285.75 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -12512,7 +12301,7 @@
 		(dnp no)
 		(uuid "652fad6d-9456-4dc8-aa7a-28e75c7398ae")
 		(property "Reference" "BZ1"
-			(at 285.75 62.23 0)
+			(at 285.75 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12521,8 +12310,8 @@
 				)
 			)
 		)
-		(property "Value" "CPT-9019A-SMT-TR"
-			(at 285.75 77.47 0)
+		(property "Value" "CPT-9019S-SMT-TR"
+			(at 285.75 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12531,7 +12320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sldrnrd:CPT-9019A"
+		(property "Footprint" "sldrnrd:CPT-9019S"
 			(at 285.75 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12542,7 +12331,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019A.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Audio/CPT-9019S-SMT-TR.pdf"
 			(at 285.75 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -12564,7 +12353,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "CUI"
+		(property "Manufacturer" "CUI (Same Sky)"
 			(at 285.75 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -12575,7 +12364,7 @@
 				)
 			)
 		)
-		(property "MPN" "CPT-9019A-SMT-TR"
+		(property "MPN" "CPT-9019S-SMT-TR"
 			(at 285.75 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12586,7 +12375,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C20181991"
+		(property "LCSC" "C95163"
 			(at 285.75 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16010,7 +15799,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:LED/LED_Yellow_0603")
+		(lib_id "sldrnrd:LED/LED_Red_0603")
 		(at 60.96 260.35 90)
 		(unit 1)
 		(body_style 1)
@@ -16021,7 +15810,7 @@
 		(dnp no)
 		(uuid "b934db4e-949a-468b-be8e-ffcd9483c069")
 		(property "Reference" "D4"
-			(at 63.754 260.35 90)
+			(at 60.96 257.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16030,8 +15819,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_Yellow_0603"
-			(at 60.96 256.54 90)
+		(property "Value" "LED_Red_0603"
+			(at 60.96 262.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16084,7 +15873,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603Y"
+		(property "MPN" "KT-0603R"
 			(at 60.96 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -16095,7 +15884,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2287"
+		(property "LCSC" "C2286"
 			(at 60.96 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -18235,5 +18024,4 @@
 			(page "7")
 		)
 	)
-	(embedded_fonts no)
 )

@@ -3516,7 +3516,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Resistor/R0603_33k"
+		(symbol "sldrnrd:Resistor/R0603_680k"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3539,7 +3539,7 @@
 					)
 				)
 			)
-			(property "Value" "33k"
+			(property "Value" "680k"
 				(at -2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3571,7 +3571,7 @@
 					)
 				)
 			)
-			(property "Description" "33k Resistor, 0603, 1%, 75V, 100mW"
+			(property "Description" "680k Resistor, 0603, 1%, 75V, 100mW"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3593,7 +3593,7 @@
 					)
 				)
 			)
-			(property "MPN" "0603WAF3302T5E"
+			(property "MPN" "0603WAF6803T5E"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3604,7 +3604,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C4216"
+			(property "LCSC" "C25822"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3615,7 +3615,7 @@
 					)
 				)
 			)
-			(symbol "Resistor/R0603_33k_0_1"
+			(symbol "Resistor/R0603_680k_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -3628,7 +3628,7 @@
 					)
 				)
 			)
-			(symbol "Resistor/R0603_33k_1_1"
+			(symbol "Resistor/R0603_680k_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -8722,7 +8722,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_6k8")
+		(lib_id "sldrnrd:Resistor/R0603_680k")
 		(at 93.98 254 90)
 		(unit 1)
 		(body_style 1)
@@ -8743,7 +8743,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "680k"
 			(at 93.98 250.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8775,7 +8775,7 @@
 				)
 			)
 		)
-		(property "Description" "6.8k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "680k Resistor, 0603, 1%, 75V, 100mW"
 			(at 93.98 254 0)
 			(hide yes)
 			(show_name no)
@@ -8797,7 +8797,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF6801T5E"
+		(property "MPN" "0603WAF6803T5E"
 			(at 93.98 254 0)
 			(hide yes)
 			(show_name no)
@@ -8808,7 +8808,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23212"
+		(property "LCSC" "C25822"
 			(at 93.98 254 0)
 			(hide yes)
 			(show_name no)
@@ -9198,7 +9198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_33k")
+		(lib_id "sldrnrd:Resistor/R0603_10k")
 		(at 85.09 260.35 0)
 		(unit 1)
 		(body_style 1)
@@ -9220,14 +9220,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 87.63 261.6199 90)
+		(property "Value" "10k"
+			(at 87.63 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -9252,7 +9253,7 @@
 				)
 			)
 		)
-		(property "Description" "33k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "10k Resistor, 0603, 1%, 75V, 100mW"
 			(at 85.09 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9274,7 +9275,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF3302T5E"
+		(property "MPN" "0603WAF1002T5E"
 			(at 85.09 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9285,7 +9286,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4216"
+		(property "LCSC" "C25804"
 			(at 85.09 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9525,7 +9526,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_33k")
+		(lib_id "sldrnrd:Resistor/R0603_10k")
 		(at 85.09 198.12 0)
 		(unit 1)
 		(body_style 1)
@@ -9547,14 +9548,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 87.63 199.3899 90)
+		(property "Value" "10k"
+			(at 87.63 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -9579,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Description" "33k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "10k Resistor, 0603, 1%, 75V, 100mW"
 			(at 85.09 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9601,7 +9603,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF3302T5E"
+		(property "MPN" "0603WAF1002T5E"
 			(at 85.09 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -9612,7 +9614,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4216"
+		(property "LCSC" "C25804"
 			(at 85.09 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -10429,7 +10431,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_6k8")
+		(lib_id "sldrnrd:Resistor/R0603_680k")
 		(at 93.98 149.86 90)
 		(unit 1)
 		(body_style 1)
@@ -10450,7 +10452,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "680k"
 			(at 93.98 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10482,7 +10484,7 @@
 				)
 			)
 		)
-		(property "Description" "6.8k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "680k Resistor, 0603, 1%, 75V, 100mW"
 			(at 93.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10504,7 +10506,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF6801T5E"
+		(property "MPN" "0603WAF6803T5E"
 			(at 93.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10515,7 +10517,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23212"
+		(property "LCSC" "C25822"
 			(at 93.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -10542,7 +10544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_6k8")
+		(lib_id "sldrnrd:Resistor/R0603_680k")
 		(at 93.98 191.77 90)
 		(unit 1)
 		(body_style 1)
@@ -10563,7 +10565,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "680k"
 			(at 93.98 187.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10595,7 +10597,7 @@
 				)
 			)
 		)
-		(property "Description" "6.8k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "680k Resistor, 0603, 1%, 75V, 100mW"
 			(at 93.98 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10617,7 +10619,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF6801T5E"
+		(property "MPN" "0603WAF6803T5E"
 			(at 93.98 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -10628,7 +10630,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23212"
+		(property "LCSC" "C25822"
 			(at 93.98 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -12531,7 +12533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_1n")
+		(lib_id "sldrnrd:Capacitor/C0603_10n")
 		(at 101.6 198.12 0)
 		(unit 1)
 		(body_style 1)
@@ -12553,14 +12555,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 104.14 199.3899 90)
+		(property "Value" "10n"
+			(at 104.14 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:C_0603"
@@ -12585,7 +12588,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF Capacitor, 0603"
+		(property "Description" "10nF Capacitor, 0603"
 			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12596,7 +12599,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C57112"
 			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12629,7 +12632,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Fenghua"
 			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -12640,7 +12643,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
+		(property "MPN" "0603B103K500NT"
 			(at 101.6 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -13070,7 +13073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_6k8")
+		(lib_id "sldrnrd:Resistor/R0603_680k")
 		(at 93.98 228.6 90)
 		(unit 1)
 		(body_style 1)
@@ -13091,7 +13094,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "680k"
 			(at 93.98 224.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13123,7 +13126,7 @@
 				)
 			)
 		)
-		(property "Description" "6.8k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "680k Resistor, 0603, 1%, 75V, 100mW"
 			(at 93.98 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -13145,7 +13148,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF6801T5E"
+		(property "MPN" "0603WAF6803T5E"
 			(at 93.98 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -13156,7 +13159,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23212"
+		(property "LCSC" "C25822"
 			(at 93.98 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -14078,7 +14081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_1n")
+		(lib_id "sldrnrd:Capacitor/C0603_10n")
 		(at 101.6 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -14100,14 +14103,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 104.14 157.4799 90)
+		(property "Value" "10n"
+			(at 104.14 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:C_0603"
@@ -14132,7 +14136,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF Capacitor, 0603"
+		(property "Description" "10nF Capacitor, 0603"
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14143,7 +14147,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C57112"
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14176,7 +14180,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Fenghua"
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14187,7 +14191,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
+		(property "MPN" "0603B103K500NT"
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14655,7 +14659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_33k")
+		(lib_id "sldrnrd:Resistor/R0603_10k")
 		(at 85.09 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -14677,14 +14681,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 87.63 157.4799 90)
+		(property "Value" "10k"
+			(at 87.63 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -14709,7 +14714,7 @@
 				)
 			)
 		)
-		(property "Description" "33k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "10k Resistor, 0603, 1%, 75V, 100mW"
 			(at 85.09 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14731,7 +14736,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF3302T5E"
+		(property "MPN" "0603WAF1002T5E"
 			(at 85.09 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -14742,7 +14747,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4216"
+		(property "LCSC" "C25804"
 			(at 85.09 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -17021,7 +17026,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_1n")
+		(lib_id "sldrnrd:Capacitor/C0603_10n")
 		(at 101.6 260.35 0)
 		(unit 1)
 		(body_style 1)
@@ -17043,14 +17048,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 104.14 261.6199 90)
+		(property "Value" "10n"
+			(at 104.14 261.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:C_0603"
@@ -17075,7 +17081,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF Capacitor, 0603"
+		(property "Description" "10nF Capacitor, 0603"
 			(at 101.6 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -17086,7 +17092,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C57112"
 			(at 101.6 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -17119,7 +17125,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Fenghua"
 			(at 101.6 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -17130,7 +17136,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
+		(property "MPN" "0603B103K500NT"
 			(at 101.6 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -17347,7 +17353,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Capacitor/C0603_1n")
+		(lib_id "sldrnrd:Capacitor/C0603_10n")
 		(at 101.6 234.95 0)
 		(unit 1)
 		(body_style 1)
@@ -17369,14 +17375,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
-			(at 104.14 236.2199 90)
+		(property "Value" "10n"
+			(at 104.14 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:C_0603"
@@ -17401,7 +17408,7 @@
 				)
 			)
 		)
-		(property "Description" "1nF Capacitor, 0603"
+		(property "Description" "10nF Capacitor, 0603"
 			(at 101.6 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -17412,7 +17419,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C57112"
 			(at 101.6 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -17445,7 +17452,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Fenghua"
 			(at 101.6 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -17456,7 +17463,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B102KB8NNNC"
+		(property "MPN" "0603B103K500NT"
 			(at 101.6 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -18893,7 +18900,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Resistor/R0603_33k")
+		(lib_id "sldrnrd:Resistor/R0603_10k")
 		(at 85.09 234.95 0)
 		(unit 1)
 		(body_style 1)
@@ -18915,14 +18922,15 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
-			(at 87.63 236.2199 90)
+		(property "Value" "10k"
+			(at 87.63 236.2199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "sldrnrd:R_0603"
@@ -18947,7 +18955,7 @@
 				)
 			)
 		)
-		(property "Description" "33k Resistor, 0603, 1%, 75V, 100mW"
+		(property "Description" "10k Resistor, 0603, 1%, 75V, 100mW"
 			(at 85.09 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -18969,7 +18977,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF3302T5E"
+		(property "MPN" "0603WAF1002T5E"
 			(at 85.09 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -18980,7 +18988,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4216"
+		(property "LCSC" "C25804"
 			(at 85.09 234.95 0)
 			(hide yes)
 			(show_name no)

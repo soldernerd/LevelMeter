@@ -923,183 +923,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:LED/LED_Green_0603_NationStar"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_Green_0603"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "sldrnrd:LED_0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Green LED, 0603"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "NationStar"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "NCD0603G2"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C87326"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED/LED_Green_0603_NationStar_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED/LED_Green_0603_NationStar_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "sldrnrd:LED/LED_Red_0603"
 			(pin_numbers
 				(hide yes)
@@ -4691,7 +4514,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "sldrnrd:Transistor/MosfetP/DMG2305UX-13"
+		(symbol "sldrnrd:Transistor/MosfetP/AO3401A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4707,7 +4530,7 @@
 					)
 				)
 			)
-			(property "Value" "DMG2305UX-13"
+			(property "Value" "AO3401A"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4728,7 +4551,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/DMG2305UX.pdf"
+			(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/AO3401A.pdf"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4750,7 +4573,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Diodes Inc."
+			(property "Manufacturer" "Alpha & Omega Semiconductor"
 				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4761,7 +4584,7 @@
 					)
 				)
 			)
-			(property "MPN" "DMG2305UX-13"
+			(property "MPN" "AO3401A"
 				(at 0 -25.4 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4772,7 +4595,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C144153"
+			(property "LCSC" "C15127"
 				(at 0 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4794,7 +4617,7 @@
 					)
 				)
 			)
-			(symbol "Transistor/MosfetP/DMG2305UX-13_0_1"
+			(symbol "Transistor/MosfetP/AO3401A_0_1"
 				(polyline
 					(pts
 						(xy 0 2.54) (xy 0 -2.54)
@@ -11042,7 +10865,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:LED/LED_Green_0603_NationStar")
+		(lib_id "sldrnrd:LED/LED_Red_0603")
 		(at 420.37 58.42 90)
 		(unit 1)
 		(body_style 1)
@@ -11053,7 +10876,7 @@
 		(dnp no)
 		(uuid "69d5d5b1-9a09-4b89-83f2-59112cfd5d4b")
 		(property "Reference" "D2"
-			(at 423.164 58.42 90)
+			(at 420.37 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11062,7 +10885,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_Green_0603"
+		(property "Value" "LED_Red_0603"
 			(at 420.37 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11105,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "NationStar"
+		(property "Manufacturer" "KENTO"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11116,7 +10939,7 @@
 				)
 			)
 		)
-		(property "MPN" "NCD0603G2"
+		(property "MPN" "KT-0603R"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11127,7 +10950,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C87326"
+		(property "LCSC" "C2286"
 			(at 420.37 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -14054,7 +13877,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Transistor/MosfetP/DMG2305UX-13")
+		(lib_id "sldrnrd:Transistor/MosfetP/AO3401A")
 		(at 78.74 78.74 90)
 		(unit 1)
 		(body_style 1)
@@ -14065,7 +13888,7 @@
 		(dnp no)
 		(uuid "a9b13406-5da5-4dd2-af2a-497187f53f17")
 		(property "Reference" "Q1"
-			(at 74.168 77.47 0)
+			(at 73.914 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14074,8 +13897,8 @@
 				)
 			)
 		)
-		(property "Value" "DMG2305UX-13"
-			(at 84.328 70.866 0)
+		(property "Value" "AO3401A"
+			(at 83.82 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14095,7 +13918,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/DMG2305UX.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/AO3401A.pdf"
 			(at 99.06 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14117,7 +13940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diodes Inc."
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
 			(at 101.6 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14128,7 +13951,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMG2305UX-13"
+		(property "MPN" "AO3401A"
 			(at 104.14 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14139,7 +13962,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C144153"
+		(property "LCSC" "C15127"
 			(at 106.68 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14169,7 +13992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "sldrnrd:Transistor/MosfetP/DMG2305UX-13")
+		(lib_id "sldrnrd:Transistor/MosfetP/AO3401A")
 		(at 101.6 194.31 270)
 		(mirror x)
 		(unit 1)
@@ -14181,7 +14004,7 @@
 		(dnp no)
 		(uuid "aa94239a-f279-46bf-91f5-51ac4911ea58")
 		(property "Reference" "Q2"
-			(at 106.172 193.04 0)
+			(at 116.84 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14190,8 +14013,8 @@
 				)
 			)
 		)
-		(property "Value" "DMG2305UX-13"
-			(at 96.012 186.436 0)
+		(property "Value" "AO3401A"
+			(at 86.36 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14211,7 +14034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/DMG2305UX.pdf"
+		(property "Datasheet" "${SLDRNRD_LIB}/datasheets/Transistor/MosfetP/AO3401A.pdf"
 			(at 81.28 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14233,7 +14056,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diodes Inc."
+		(property "Manufacturer" "Alpha & Omega Semiconductor"
 			(at 78.74 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14244,7 +14067,7 @@
 				)
 			)
 		)
-		(property "MPN" "DMG2305UX-13"
+		(property "MPN" "AO3401A"
 			(at 76.2 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14255,7 +14078,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C144153"
+		(property "LCSC" "C15127"
 			(at 73.66 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -17883,5 +17706,4 @@
 			(page "2")
 		)
 	)
-	(embedded_fonts no)
 )
