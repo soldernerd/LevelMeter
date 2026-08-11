@@ -62,4 +62,4 @@ PinNumber;PinName;SignalName;PinConfiguration;Comments
 61;PB7;EEPROM_SDA;I2C1_SDA;I2C data for BL24C256A eprom and BME280 environmental module
 62;PB8;BLE_UART_MCU_TO_BLE;USART6_TX;UART link to bluetooth module
 63;PB9;BLE_UART_BLE_TO_MCU;USART6_RX;UART link to bluetooth module
-64;PB10;DAC_SCK;SPI3_SCK;SPI clock output for DAC
+64;PC10;DAC_SCK;SPI3_SCK;SPI clock output for DAC
