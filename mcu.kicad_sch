@@ -4777,6 +4777,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 143.51) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5900e206-d645-43f5-83a2-7f85c23f6d62")
+	)
+	(wire
+		(pts
 			(xy 331.47 118.11) (xy 340.36 118.11)
 		)
 		(stroke
@@ -5297,6 +5307,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 147.32) (xy 120.65 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91336ea-20a5-4bcb-bbf1-2d9c3a36855f")
+	)
+	(wire
+		(pts
 			(xy 135.89 82.55) (xy 135.89 86.36)
 		)
 		(stroke
@@ -5407,6 +5427,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 97.79) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0914cfb-1a40-482f-9740-c0b9f4aa7f44")
+	)
+	(wire
+		(pts
 			(xy 302.26 172.72) (xy 298.45 172.72)
 		)
 		(stroke
@@ -5487,6 +5517,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 120.65) (xy 205.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7f496b-92c0-44dd-afa3-7f07e061654d")
+	)
+	(wire
+		(pts
 			(xy 331.47 133.35) (xy 340.36 133.35)
 		)
 		(stroke
@@ -5514,6 +5554,16 @@
 			(type default)
 		)
 		(uuid "efab9980-f1ff-4d1c-b6ec-85e1719fea40")
+	)
+	(wire
+		(pts
+			(xy 200.66 101.6) (xy 205.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efca5f16-6c97-4887-97ca-f016ec665b61")
 	)
 	(wire
 		(pts
@@ -6086,6 +6136,29 @@
 			)
 		)
 	)
+	(global_label "AUX1"
+		(shape bidirectional)
+		(at 205.74 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "51da4d0d-53e5-42ed-90af-0103fadedc45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6746 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DISP_ON"
 		(shape output)
 		(at 177.8 82.55 90)
@@ -6239,6 +6312,38 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "I2C3_SCL"
+		(shape bidirectional)
+		(at 113.03 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ca4e8e1-6554-4d9d-a9a3-6531be5df04f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Intersheetref" "${INTERSHEET_REFS}"
+			(at 113.03 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -6821,6 +6926,29 @@
 			)
 		)
 	)
+	(global_label "AUX2"
+		(shape bidirectional)
+		(at 205.74 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c997720c-8d7a-4e6b-b675-daea2958dc09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6746 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BLE_P1_6"
 		(shape output)
 		(at 205.74 139.7 0)
@@ -7060,6 +7188,29 @@
 			)
 		)
 	)
+	(global_label "SPI1_CS2"
+		(shape output)
+		(at 205.74 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea9107e6-5ea5-4b0e-b694-f4f70a4b23eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.6756 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "BLE_P2_7"
 		(shape output)
 		(at 340.36 121.92 0)
@@ -7103,6 +7254,38 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "I2C3_SDA"
+		(shape bidirectional)
+		(at 113.03 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5cbaa21-1256-4d90-94ca-7de22e20f94c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Intersheetref" "${INTERSHEET_REFS}"
+			(at 113.03 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 	)
@@ -7162,7 +7345,7 @@
 		)
 	)
 	(global_label "EEPROM_SCL"
-		(shape output)
+		(shape bidirectional)
 		(at 147.32 82.55 90)
 		(effects
 			(font
@@ -10161,5 +10344,4 @@
 			(page "3")
 		)
 	)
-	(embedded_fonts no)
 )

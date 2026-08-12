@@ -121,7 +121,7 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -765,7 +765,7 @@
         "uuid": "7d35597c-fbf9-4ce7-8410-0e7922679ea3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J12,#PWR116,#PWR187-188",
     "variants": []
   },
   "sheets": [
